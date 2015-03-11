@@ -1,0 +1,15 @@
+PHAGE BIOINFORMATICS notes Wed 2015-03-11
+
+#### DATA TEAM ####
+Fasta Downloader worked. Found palindromes, got zscores. 
+
+Clarify what the zsocre is - across population. 
+
+
+#### VISUALIZATION TEAM ####
+Heatmaps / histograms as ideas
+working with that online tool
+going to install matplotlib, make up some data...
+
+#### RESEARCH TEAM ####
+Kenyon will get us papers
