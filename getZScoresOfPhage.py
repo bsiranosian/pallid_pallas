@@ -2,9 +2,23 @@ import numpy as np
 from os import listdir
 import json
 
-n = 4
-#Sets the path to find the phage fastas. This folder contains all genomes on phagesDB
-folder = "C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas"
+import sys
+
+def main():
+    if len(sys.argv) != 3:
+        # if the correct arguments aren't given, exit with a helpful message
+        sys.exit('USAGE: folder of fastas with badname file removed \n \
+                  size of pals, \n')
+    # assign variables from the arguments
+    else:
+        folder= sys.argv[1]
+        n = int(sys.argv[2])
+
+    # run the program you designed
+    mainThing(folder, n)
+
+
+
 
 #Take in folder, output list of fasta names
 def listOfFastasInFolder(folderLocation):
@@ -73,15 +87,20 @@ def tud(nucCount, palCount, nucs, n):
     return tud
 
 def zScores(tuds):
-    for i in range(len(tuds[0])):
-        sigma = np.std([tuds[j][i] for j in range(len(tuds))])
-        for j in range(len(tuds)):
-            tuds[j][i] = (tuds[j][i] - 1)/sigma
-    return tuds
+    mean = np.mean(tuds)
+    sigma = np.std(tuds)
+    return (tuds-mean)/sigma
+#==============================================================================
+#     for i in range(len(tuds[0])):
+#         sigma = np.std([tuds[j][i] for j in range(len(tuds))])
+#         for j in range(len(tuds)):
+#             tuds[j][i] = (tuds[j][i] - 1)/sigma
+#     return tuds
+#==============================================================================
 
 #This runs the code properly in order, finding Z scores for palindrome use
 #Finds scores for each palindrome for all genomes, using fastas downloaded from phages DB
-def mainThing(n, folder):
+def mainThing(folder, n):
     #KEEP THIS ORDERING
     nucs = ['A', 'C', 'G', 'T']
     fastas = listOfFastasInFolder(folder)
@@ -94,25 +113,21 @@ def mainThing(n, folder):
         data = palNucCount(dna, n, nucs)
         tuds = tud(data[0], data[1], nucs, n)
         allTUD.append(list(tuds))
-    z = zScores(allTUD)
-    print(z)
+    z = zScores(np.array(allTUD))
     with open("zscores.txt", "w") as f:
-        json.dump(z, f)
+        json.dump([list(a) for a in z], f)
     with open("phages.txt", "w") as f:
         json.dump(fastas, f)
     with open("pals.txt", "w") as f:
         json.dump([intToPal(int1, nucs, n) for int1 in range(4**(n//2))], f)
-    
-    
-    #Now output in some nice way...
+    with open("tuds.txt", "w") as f:
+        json.dump(allTUD, f)
 
-#==============================================================================
-# nucs = ['A', 'C', 'G', 'T']
-# fasta = "C:\Users\Ray\Documents\GitHub\pallid_pallas\phageFastas\Conspiracy-A5.fasta"
-# dna = getSequenceFromFasta(fasta)
-# data = palNucCount(dna, n, nucs)
-# zscores = zScores(data[0], data[1], nucs, n, len(dna))
-#==============================================================================
+#mainThing("C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas", 4)
 
-mainThing(n, folder)
+# these two lines automatically run the main function if the script 
+# is called from the commend line
+if __name__ == '__main__':
+    main()
+
 
