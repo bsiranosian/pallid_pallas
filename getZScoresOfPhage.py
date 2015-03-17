@@ -114,11 +114,10 @@ def mainThing(folder, n):
         tuds = tud(data[0], data[1], nucs, n)
         allTUD.append(list(tuds))
     z = zScores(np.array(allTUD))
-    nicePhageNames = [f1.replace(folder + "\\", "").replace(".fasta", "") for f1 in fastas]
     with open("zscores.txt", "w") as f:
         json.dump([list(a) for a in z], f)
     with open("phages.txt", "w") as f:
-        json.dump(nicePhageNames, f)
+        json.dump(fastas, f)
     with open("pals.txt", "w") as f:
         json.dump([intToPal(int1, nucs, n) for int1 in range(4**(n//2))], f)
     with open("tuds.txt", "w") as f:
