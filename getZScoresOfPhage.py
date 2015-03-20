@@ -6,6 +6,7 @@ import sys
 
 def main():
     if len(sys.argv) != 3:
+        mainThing("C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas", 4)
         # if the correct arguments aren't given, exit with a helpful message
         sys.exit('USAGE: folder of fastas with badname file removed \n \
                   size of pals, \n')
@@ -22,7 +23,9 @@ def main():
 
 #Take in folder, output list of fasta names
 def listOfFastasInFolder(folderLocation):
-    return [folderLocation +"\\" + f for f in listdir(folderLocation)]
+    fastas = [folderLocation +"\\" + f for f in listdir(folderLocation)]
+    fastas.remove(folderLocation +"\\" + "badNames.txt")
+    return fastas
 
 #This takes the four nucleotides (nucs) and converts them to integerrs so that ultimately, all palindromes can be found and defined as integers. 
 def palToInt(seq, nucs):
@@ -44,14 +47,16 @@ def intToPal(int1, nucs, n):
     return seq[::-1] + otherHalf
 
 #inputs a .fasta file for a single genome and outputs the genome sequence as a string
-def getSequenceFromFasta(file):
-    with open(file, 'r') as f:
+def getSequenceFromFasta(file1):
+    with open(file1, 'r') as f:
         line = f.readline()
         while line[0]=='>':
             line=f.readline()
         sequence = line.replace("\n", "")
         for line in f:
             sequence = sequence + line.replace("\n", "")
+    if 'N' in sequence:
+        return ""
     return sequence.replace("\t", '')
 
 #tests if an input kmer is a palindrome and outputs the appropriate truth value 
@@ -102,6 +107,7 @@ def zScores(tuds):
 #Finds scores for each palindrome for all genomes, using fastas downloaded from phages DB
 def mainThing(folder, n):
     #KEEP THIS ORDERING
+    badFastas = []
     nucs = ['A', 'C', 'G', 'T']
     fastas = listOfFastasInFolder(folder)
     #fastas = ["C:\Users\Ray\Documents\GitHub\pallid_pallas\phageFastas\Yahalom-B3.fasta"]
@@ -110,10 +116,16 @@ def mainThing(folder, n):
         fasta = fastas[i]
         print fasta
         dna = getSequenceFromFasta(fasta)
-        data = palNucCount(dna, n, nucs)
-        tuds = tud(data[0], data[1], nucs, n)
-        allTUD.append(list(tuds))
+        if dna == "":
+            badFastas.append(fasta)
+        else:
+            data = palNucCount(dna, n, nucs)
+            tuds = tud(data[0], data[1], nucs, n)
+            allTUD.append(list(tuds))
     z = zScores(np.array(allTUD))
+    print(badFastas)
+    for bad in badFastas:
+        fastas.remove(bad)
     nicePhageNames = [f1.replace(folder + "\\", "").replace(".fasta", "") for f1 in fastas]
     with open("zscores.txt", "w") as f:
         json.dump([list(a) for a in z], f)
@@ -124,7 +136,7 @@ def mainThing(folder, n):
     with open("tuds.txt", "w") as f:
         json.dump(allTUD, f)
 
-#mainThing("C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas", 4)
+
 
 # these two lines automatically run the main function if the script 
 # is called from the commend line
