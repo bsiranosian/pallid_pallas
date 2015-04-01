@@ -6,7 +6,7 @@ import sys
 
 def main():
     if len(sys.argv) != 3:
-        #mainThing("C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas", 4)
+        #mainThing("C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas", 6)
         # if the correct arguments aren't given, exit with a helpful message
         sys.exit('USAGE: folder of fastas with badname file removed \n \
                   size of pals, \n')
@@ -17,9 +17,6 @@ def main():
 
     # run the program you designed
     mainThing(folder, n)
-
-
-
 
 #Take in folder, output list of fasta names
 def listOfFastasInFolder(folderLocation):
@@ -127,13 +124,13 @@ def mainThing(folder, n):
     for bad in badFastas:
         fastas.remove(bad)
     nicePhageNames = [f1.replace(folder + "\\", "").replace(".fasta", "") for f1 in fastas]
-    with open("zscores.txt", "w") as f:
+    with open("zscores"+ str(n)+".txt", "w") as f:
         json.dump([list(a) for a in z], f)
-    with open("phages.txt", "w") as f:
+    with open("phages"+ str(n)+".txt", "w") as f:
         json.dump(nicePhageNames, f)
-    with open("pals.txt", "w") as f:
+    with open("pals"+ str(n)+".txt", "w") as f:
         json.dump([intToPal(int1, nucs, n) for int1 in range(4**(n//2))], f)
-    with open("tuds.txt", "w") as f:
+    with open("tuds"+ str(n)+".txt", "w") as f:
         json.dump(allTUD, f)
 
 
