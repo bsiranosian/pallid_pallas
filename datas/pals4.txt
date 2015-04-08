@@ -1,0 +1,1 @@
+["AATT", "CATG", "GATC", "TATA", "ACGT", "CCGG", "GCGC", "TCGA", "AGCT", "CGCG", "GGCC", "TGCA", "ATAT", "CTAG", "GTAC", "TTAA"]
