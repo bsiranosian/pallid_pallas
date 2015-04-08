@@ -38,7 +38,7 @@ def createHeatmap(phages, pals, zscores):
     plt.xticks(np.arange(0, len(x))+0.5, x)
     plt.xlim(0, len(x))
     plt.ylim(0, len(y))
-    plt.title("Palindromic Tetranucleotide Usage Departure Scores")
+    plt.title("Palindromic TUD Z-Scores")
     plt.xlabel("Palindrome")
     plt.ylabel("Bacteriophage")
     plt.colorbar()
@@ -60,6 +60,9 @@ def main():
 
     plt.hist(createHeatmap(phages, pals, zscores))
     
+if __name__ == '__main__':
+    main()
+    
 #------------------------------------------------------------------------------
 
 phages = "C:/Users/Brandon/Documents/GitHub/pallid_pallas/datas/phages4.txt"
@@ -67,6 +70,3 @@ pals = "C:/Users/Brandon/Documents/GitHub/pallid_pallas/datas/pals4.txt"
 zscores = "C:/Users/Brandon/Documents/GitHub/pallid_pallas/datas/zscores4.txt"
 
 plt.hist(createHeatmap(phages, pals, zscores))
-    
-if __name__ == '__main__':
-    main()
