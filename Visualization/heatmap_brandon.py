@@ -9,36 +9,64 @@ import sys
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+import pylab
 
 #------------------------------------------------------------------------------
 
-# sort the data by cluster
+def getKey(item):
+    return item[2]
 
-#------------------------------------------------------------------------------
-
-def createHeatmap(pals, zscores):
-    data = np.array(json.load(open(zscores, "r")))
+def createHeatmap(phages, pals, zscores):
+    phagesList = json.load(open(phages, "r"))
     x = np.array(json.load(open(pals, "r")))
+    scoresList = json.load(open(zscores, "r"))
     
-    plt.pcolor(data,cmap=plt.cm.Reds)
+    # sort data by phage clusters
+    dataList = []
+    for phage, scores in zip(phagesList, scoresList):
+        cluster = phage.split("-")[1]
+        dataList.append((cluster, phage, scores))
+    dataList = sorted(dataList, key=getKey) 
+    
+    # convert scores into numpy array
+    tempY = []
+    for el in dataList:
+        tempY.append(el[2])
+    y = np.array(tempY)
+    
+    plt.pcolor(y,cmap=plt.cm.Reds)
     plt.xticks(np.arange(0, len(x))+0.5, x)
-#   plt.yticks(np.arange(0,10)+0.5,rows)
-    plt.show()
+    plt.xlim(0, len(x))
+    plt.ylim(0, len(y))
+    plt.title("Palindromic Tetranucleotide Usage Departure Scores")
+    plt.xlabel("Palindrome")
+    plt.ylabel("Bacteriophage")
+    plt.colorbar()
+    
+    pylab.savefig('PTUD_heatmap.pdf', bbox_inches='tight')
     
 #------------------------------------------------------------------------------
 
 def main():
     if len(sys.argv) != 1:
-        sys.exit('USAGE: python heatmap_brandon.py filename \n \
-                  filename is the file path of the zscores')
+        sys.exit('USAGE: python heatmap_brandon.py phages pals zscores \n \
+                  phages is the file path of the phages \n \
+                  pals is the file path of the palindromes \n \
+                  zscores is the file path of the zscores')
     else:
-        file = sys.argv[0]
+        phages = sys.argv[0]
+        pals = sys.argv[1]
+        zscores = sys.argv[2]
 
-    plt.hist(createHeatmap(file))
+    plt.hist(createHeatmap(phages, pals, zscores))
     
 #------------------------------------------------------------------------------
-    
-plt.hist(createHeatmap("pals.txt", "zscores.txt"))
+
+phages = "C:/Users/Brandon/Documents/GitHub/pallid_pallas/datas/phages4.txt"
+pals = "C:/Users/Brandon/Documents/GitHub/pallid_pallas/datas/pals4.txt"
+zscores = "C:/Users/Brandon/Documents/GitHub/pallid_pallas/datas/zscores4.txt"
+
+plt.hist(createHeatmap(phages, pals, zscores))
     
 if __name__ == '__main__':
     main()
