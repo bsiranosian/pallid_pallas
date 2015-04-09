@@ -6,7 +6,7 @@ import sys
 
 def main():
     if len(sys.argv) != 3:
-        #mainThing("C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas", 6)
+        mainThing("C:\\Users\\Ray\\Documents\\GitHub\\pallid_pallas\\phageFastas", 6)
         # if the correct arguments aren't given, exit with a helpful message
         sys.exit('USAGE: folder of fastas with badname file removed \n \
                   size of pals, \n')
@@ -109,6 +109,7 @@ def mainThing(folder, n):
     fastas = listOfFastasInFolder(folder)
     #fastas = ["C:\Users\Ray\Documents\GitHub\pallid_pallas\phageFastas\Yahalom-B3.fasta"]
     allTUD = []
+    gc = []
     for i in range(len(fastas)):
         fasta = fastas[i]
         print fasta
@@ -117,6 +118,7 @@ def mainThing(folder, n):
             badFastas.append(fasta)
         else:
             data = palNucCount(dna, n, nucs)
+            gc.append((data[0][1]+ data[0][2])/sum(data[0]))
             tuds = tud(data[0], data[1], nucs, n)
             allTUD.append(list(tuds))
     z = zScores(np.array(allTUD))
@@ -132,6 +134,8 @@ def mainThing(folder, n):
         json.dump([intToPal(int1, nucs, n) for int1 in range(4**(n//2))], f)
     with open("tuds"+ str(n)+".txt", "w") as f:
         json.dump(allTUD, f)
+    with open("gc"+ str(n)+".txt", "w") as f:
+        json.dump(gc, f)
 
 
 
