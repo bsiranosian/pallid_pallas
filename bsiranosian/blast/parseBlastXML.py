@@ -12,9 +12,9 @@ def main(inFile, outFile):
 			matchName = root[8][0][4][hit][2].text
 			for hsp in range(len(root[8][0][4][hit][5])):
 				outf.write('>query ' + str(hit+1) + '.' + str(hsp+1) + '\n')
-				outf.write(root[8][0][4][0][5][hsp][14].text + '\n')
+				outf.write(root[8][0][4][hit][5][hsp][14].text + '\n')
 				outf.write('>' + matchName + '\n')
-				outf.write(root[8][0][4][0][5][hsp][15].text + '\n')
+				outf.write(root[8][0][4][hit][5][hsp][15].text + '\n')
 
 
 if __name__ == '__main__':
