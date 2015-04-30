@@ -1,0 +1,58 @@
+<HTML><HEAD><TITLE>REBASE Organisms</TITLE></HEAD>
+<!--========================================================-->
+<!--==          Dana Macelis, for R.J. Roberts        ======-->
+<!--========================================================-->
+<BODY BGCOLOR=#FFFFFF TEXT=#000000 LINK=#0000BB ALINK=#0088A8 VLINK=#0088A8>
+<CENTER>
+<TABLE WIDTH=100%><TR ALIGN=CENTER VALIGN=CENTER>
+  <TD align=left><A HREF=/rebase/rebase.html><IMG SRC=/rebase/rebhomeB4.gif BORDER=0 ALT=Home></A></TD>
+  <TD>
+    <b><font size=3>REBASE <font color=#5577CC>Organisms</font></font></b> 04/30/2015
+<br><table cellpadding=6><tr>
+<td bgcolor=#99FF99><a href=javascript:window.close();><font size=2 color=#000000>Close Window</font></a></td><td bgcolor=#FFFF99><a href=javascript:history.go(-1);><font size=2 color=#000000>Back</font></a></td>
+<td bgcolor=lightyellow><a href=javascript:history.go();><font size=2 color=#000000>Refresh</font></a></td>
+</tr></table>
+</TD><TD>
+<A HREF=http://tools.neb.com/~vincze/genomes/><IMG SRC=/rebase/rebgen2.gif hspace=28 border=0 ALT=Genomes></A><br>
+</TD></TR></TABLE>
+<br><br>
+<TABLE bgcolor=beige BORDER=0><TD ALIGN=LEFT>
+<tr>
+<td bgcolor=#EEEECC><font size=2><b>Org#</b></font></td>
+<td bgcolor=#EEEECC><font size=2><b>Organism Name</b></font></td>
+<td bgcolor=#EEEECC><font size=2><b>Growth Temperature</b></font></td>
+<td bgcolor=#EEEECC><font size=2><b>Source</b></font></td>
+</tr>
+<tr>
+<td bgcolor=#FFFFFF><font size=2>8630</font></td>
+<td bgcolor=#FFFFFF><font size=2>
+<I>Mycobacterium</I> <I>intracellulare</I> MOTT-64 </font></td>
+<td bgcolor=#FFFFFF align=center><font size=2>37 &#176;</font></td>
+<td bgcolor=#FFFFFF><font size=2><A HREF=/cgi-bin/sourget?340>KCTC 29084</A></font></td>
+<td bgcolor=#FFFFFF align=right><font size=2>
+</font></td>
+</tr>
+</TD></TABLE>
+<br>
+<TABLE bgcolor=beige BORDER=0><TD ALIGN=LEFT>
+<tr>
+<td bgcolor=#DDDDFF><font size=2><b>Enzymes</b></font></td>
+<td bgcolor=#DDDDFF><font size=2><b>Recognition Sequence</b></font></td>
+<td bgcolor=#DDDDFF><font size=2><b>Genome</b></font></td>
+<td bgcolor=#DDDDFF><font size=2><b>Org Comment</b></font></td>
+</tr>
+<tr><td bgcolor=#FFFFFF><font size=2><A HREF=/rebase/enz/M.Min64ORF7070P.html target=enz>M.Min64ORF7070P</a></font></td><td bgcolor=#FFFFFF nowrap><font size=2>-</font></td>
+<td bgcolor=#FFFFFF nowrap><A HREF=http://tools.neb.com/~vincze/genomes/view.php?enzname=M.Min64ORF7070P><font size=1 color=#C90000>Complete genome</font></A></td>
+<td bgcolor=#FFFFFF><font size=1></font></td>
+</tr>
+<tr><td bgcolor=#FFFFFF><font size=2><A HREF=/rebase/enz/M.Min64ORF16210P.html target=enz>M.Min64ORF16210P</a></font></td><td bgcolor=#FFFFFF nowrap><font size=2>-</font></td>
+<td bgcolor=#FFFFFF nowrap><A HREF=http://tools.neb.com/~vincze/genomes/view.php?enzname=M.Min64ORF16210P><font size=1 color=#C90000>Complete genome</font></A></td>
+<td bgcolor=#FFFFFF><font size=1></font></td>
+</tr>
+<tr><td bgcolor=#FFFFFF><font size=2><A HREF=/rebase/enz/M.Min64ORF42120P.html target=enz>M.Min64ORF42120P</a></font></td><td bgcolor=#FFFFFF nowrap><font size=2>-</font></td>
+<td bgcolor=#FFFFFF nowrap><A HREF=http://tools.neb.com/~vincze/genomes/view.php?enzname=M.Min64ORF42120P><font size=1 color=#C90000>Complete genome</font></A></td>
+<td bgcolor=#FFFFFF><font size=1></font></td>
+</tr>
+</CENTER>
+</BODY>
+</HTML>

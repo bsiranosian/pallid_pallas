@@ -1,0 +1,5 @@
+# commands to make the list of enzyme sequences in mycobacteria
+
+for i in $(cat myco_urls.txt); do wget $i ; done
+for i in $(ls onu*); do grep target=enz $i >> enzymes.txt; done
+cat enzymes.txt | cut -d ">" -f10 | cut -d "<" -f 1 > enzyme_seqs.txt
