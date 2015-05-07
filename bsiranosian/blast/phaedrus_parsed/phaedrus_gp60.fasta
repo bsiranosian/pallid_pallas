@@ -1,0 +1,128 @@
+>query 1.1
+GCCGCAGGGGGAGCAGATGTACTCGGGGACGTACCGGCTCAGCGCGTTACGCGCCTCGACCGGATTCATGTCGTTCCCGCAGAGCGGGCACCGCT
+>Baee complete sequence, 70270 bp, circularly permuted, Cluster B5
+GCCGCAGCGGTCGCAGATGTAGCGGTCGGTGTAGCGGCTCAGCGCGTTGCGGACCTCGACGGGGTTGAGCGGCTTCGCGCACAGCGGGCAGCGCT
+>query 2.1
+GTCGTCGCGGTAGAGGGCGACACCGCGCTCCGC
+>Reprobate complete sequence, 70120 bp, circularly permuted, Cluster B5
+GTCGTCGCCGTAGAGGGCGAC-CCACGCCCCGC
+>query 3.1
+GTCGTCGCGGTAGAGGGCGACACCGCGCTCCGC
+>Phelemich complete sequence, 70115 bp, circularly permuted, Cluster B5
+GTCGTCGCCGTAGAGGGCGAC-CCACGCCCCGC
+>query 4.1
+CAGCGCGTTACGCGCCTCGACCGGATTCATG
+>Acadian Final Sequence, 69864 bp, circularly permuted, Cluster B4
+CAGCGCGGTCAGCGCGTTGACCGGATTCATG
+>query 5.1
+GTCCTCGGGGATCCCGGCCCGCTCG
+>KayaCho complete corrected sequence, 70838 bp, circularly permuted
+GTCCTCGGGGATCTCGGCCACCTCG
+>query 6.1
+GGGCGACACCGCGCT
+>Tres complete genome, 67349 bp, circularly permuted, Cluster B2
+GGGCGACACCGCGCT
+>query 7.1
+CGGCGACGTACGCGCGCTGCCACTCGGCGTCGCCG
+>TA17A complete sequence, 67324 bp, circularly permuted, Cluster B2
+CGGCGACGTACCCGGACTCCGACCCGGTCTCGCCG
+>query 8.1
+GCGCGGTCCTCGGGG
+>Suffolk Complete Sequence, 68262 bp, Circularly Permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 9.1
+GCGCGGTCCTCGGGG
+>Soto complete sequence, 67744 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 10.1
+GCGCGGTCCTCGGGG
+>SDcharge11 complete sequence, 67702 bp, circularly permuted, Cluster B1 
+GCGCGGTCCTCGGGG
+>query 11.1
+GGGCGACACCGCGCT
+>gi|29424918|gb|AY129334.1| Mycobacteriophage Rosebush, complete genome
+GGGCGACACCGCGCT
+>query 12.1
+GCGCGGTCCTCGGGG
+>Roscoe Complete Sequence, 68603 bp, Circularly Permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 13.1
+GGGCGACACCGCGCT
+>gi|91980702|gb|DQ398048.1| Mycobacteriophage Qyrzula, complete genome
+GGGCGACACCGCGCT
+>query 14.1
+TGGACAAGGCGCGGTCCTCGGGG
+>Pops complete sequence, 68367 bp, circularly permuted, Cluster B1
+TGGTCACCGCGCGGTCCTCGGGG
+>query 15.1
+TCGTTCACGGCGGCG
+>gi|192758230|gb|EU770221.1| Mycobacterium phage Nigel, complete genome
+TCGTTCACGGCGGCG
+>query 16.1
+GCGCGGTCCTCGGGG
+>Newman Complete Sequence, 68598 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 17.1
+GCGCGGTCCTCGGGG
+>Nacho complete sequence, 69321 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 18.1
+CGGCGACGTACGCGCGCTGCCACTCGGCGTCGCCG
+>LizLemon complete sequence, 67496 bp, circularly permuted, Cluster B2
+CGGCGACGTACCCGGACTCCGACCCGGTCTCGCCG
+>query 19.1
+GGGCGACACCGCGCT
+>Laurie complete sequence, 66507 bp, circularly permuted, Cluster B2
+GGGCGACACCGCGCT
+>query 20.1
+GCGCGGTCCTCGGGG
+>KLucky39 Final Sequence, 68138 bp, Circularly Permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 21.1
+GCGCGGTCCTCGGGG
+>KingVeveve complete sequence, 68043 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 22.1
+GGGCGACACCGCGCT
+>Kheth complete sequence, 67406 bp, circularly permuted, Cluster B2
+GGGCGACACCGCGCT
+>query 23.1
+GCGCGGTCCTCGGGG
+>Horchata complete sequence, 68171 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 24.1
+GCGCGGTCCTCGGGG
+>Gyarad complete sequence, 68004 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 25.1
+CGGCGACGTACGCGCGCTGCCACTCGGCGTCGCCG
+>Godines complete sequence, 67277 bp, circularly permuted, Cluster B2
+CGGCGACGTACCCGGACTCCGACCCGGTCTCGCCG
+>query 26.1
+CGGCGACGTACGCGCGCTGCCACTCGGCGTCGCCG
+>Glass complete sequence, 67509 bp, circularly permuted, Cluster B2
+CGGCGACGTACCCGGACTCCGACCCGGTCTCGCCG
+>query 27.1
+GCGCGGTCCTCGGGG
+>Eremos complete sequence, 68472 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 28.1
+GCGCGGTCCTCGGGG
+>Dingo complete sequence, 67776 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 29.1
+GCGCGGTCCTCGGGG
+>Crownjwl Complete Sequence, 68521 bp, Circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 30.1
+GCGGTCCTCGGGGATCCCGG
+>Cooper Complete Sequence, 70654 bp, Circularly Permuted, Cluster B4
+GCCGTCCTCGGGGATGCCGG
+>query 31.1
+GCGCGGTCCTCGGGG
+>Chunky complete sequence, 68249 bp, circularly permuted, Cluster B1
+GCGCGGTCCTCGGGG
+>query 32.1
+GGGCGACACCGCGCT
+>Arbiter Complete Sequence, 67169 bp, Circularly Permuted, Cluster B2
+GGGCGACACCGCGCT
