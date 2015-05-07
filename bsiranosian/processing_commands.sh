@@ -14,8 +14,22 @@ python kmerCountGenome.py ~/projects/phage_2015/fasta_map.txt 6 ~/projects/phage
 python compareTUD.py --k 4 --s ~/projects/phage_2015/dev_4mers.txt ~/projects/phage_2015/fasta_map.txt ~/projects/phage_2015/crap.nex  
 python compareTUD.py --k 6 --s ~/projects/phage_2015/dev_6mers.txt ~/projects/phage_2015/fasta_map.txt ~/projects/phage_2015/crap.nex  
 
+cd ~/projects/phage_2015
 grep '\-B' fasta_map.txt > fasta_map_B.txt
 grep -v 'B3' fasta_map_B.txt > fasta_map_B_noB3.txt
 for i in $(cut -f2 -d, fasta_map_B_noB3.txt); do cat $i >> all_B_noB3.fasta; done
-makeblastdb -dbtype 'nucl' -in all_B_noB3.fasta -title 'mycobacteriophages cluster B, no B3' 
+makeblastdb -dbtype 'nucl' -in all_B_noB3.fasta -title 'mycobacteriophages cluster B, no B3' -out all_B_noB3
 
+# making files for julia
+# data from here: http://www.ncbi.nlm.nih.gov/gene?LinkName=nuccore_gene&from_uid=194303197
+# parse into individual gene files
+python parseGeneResult.py phaedrus_gene_result.txt Phaedrus.fasta phaedrus phaedrus_genes
+# blast each individually
+for i in $(ls phaedrus_genes/*.fasta); 
+do blastn -query $i -db database/all_B_noB3 -task blastn -outfmt 5 -max_hsps 1 -out ${i%.*}.xml; 
+done
+# parse each individually
+for i in $(ls phaedrus_genes/*.xml);
+do j=${i##*/};
+python parseBlastXML.py $i phaedrus_parsed/${j%.*}.fasta; 
+done
