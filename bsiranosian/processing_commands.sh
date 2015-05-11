@@ -29,7 +29,13 @@ for i in $(ls phaedrus_genes/*.fasta);
 do blastn -query $i -db database/all_B_noB3 -task blastn -outfmt 5 -max_hsps 1 -out ${i%.*}.xml; 
 done
 # parse each individually
+# threshold of e-value 0.01
+# 38024 alignments unfiltered 
+# 15172 alignments when filtered
 for i in $(ls phaedrus_genes/*.xml);
 do j=${i##*/};
-python parseBlastXML.py $i phaedrus_parsed/${j%.*}.fasta; 
+python parseBlastXML.py $i phaedrus_parsed/${j%.*}.fasta 0.01; 
 done
+
+#remove files without any alignments
+find phaedrus_parsed/ -size 0 -type f -delete

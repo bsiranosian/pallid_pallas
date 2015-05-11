@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.29+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>database/all_B_noB3</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>phaedrus_gp61</BlastOutput_query-def>
+  <BlastOutput_query-len>270</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>phaedrus_gp61</Iteration_query-def>
+  <Iteration_query-len>270</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|74</Hit_id>
+  <Hit_def>gi|192758230|gb|EU770221.1| Mycobacterium phage Nigel, complete genome</Hit_def>
+  <Hit_accession>74</Hit_accession>
+  <Hit_len>69904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3537</Hsp_bit-score>
+      <Hsp_score>40</Hsp_score>
+      <Hsp_evalue>0.0123804</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>55568</Hsp_hit-from>
+      <Hsp_hit-to>55587</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GGACGCCGCCCGGTCTGCGC</Hsp_qseq>
+      <Hsp_hseq>GGACGCCGCCCGGTCTGCGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8</Hit_id>
+  <Hit_def>Baee complete sequence, 70270 bp, circularly permuted, Cluster B5</Hit_def>
+  <Hit_accession>8</Hit_accession>
+  <Hit_len>70270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>0.0432117</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>64113</Hsp_hit-from>
+      <Hsp_hit-to>64131</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>GTGCGCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GTGCGCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1</Hit_id>
+  <Hit_def>Acadian Final Sequence, 69864 bp, circularly permuted, Cluster B4</Hit_def>
+  <Hit_accession>1</Hit_accession>
+  <Hit_len>69864</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.5503</Hsp_bit-score>
+      <Hsp_score>38</Hsp_score>
+      <Hsp_evalue>0.0432117</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>63477</Hsp_hit-from>
+      <Hsp_hit-to>63495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>GTGCGCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GTGCGCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|49</Hit_id>
+  <Hit_def>KayaCho complete corrected sequence, 70838 bp, circularly permuted</Hit_def>
+  <Hit_accession>49</Hit_accession>
+  <Hit_len>70838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9436</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>0.526427</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>40041</Hsp_hit-from>
+      <Hsp_hit-to>40017</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>GGTGGACACCTGGCCGACGTTCGCG</Hsp_qseq>
+      <Hsp_hseq>GGTGGACACCTGGCCCAGGCTCGCG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| | | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|17</Hit_id>
+  <Hit_def>ChrisnMich Complete Sequence, 70428 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>17</Hit_accession>
+  <Hit_len>70428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9436</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>0.526427</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>36548</Hsp_hit-from>
+      <Hsp_hit-to>36578</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>GCCGTGCCGCGAGGTCGGGGTCGATCGCCGCC</Hsp_qseq>
+      <Hsp_hseq>GCCGCGCCGCGAGGTCGAGCT-GACCGCCGCC</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||| | | || |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|106</Hit_id>
+  <Hit_def>Stinger Complete Sequence, 69641 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>106</Hit_accession>
+  <Hit_len>69641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.1402</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>1.83741</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>56754</Hsp_hit-from>
+      <Hsp_hit-to>56731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GTCGGGGTCGATCGCCGCCAGCGC</Hsp_qseq>
+      <Hsp_hseq>GTCGGGGGCCACCGCCGCCAGCGC</Hsp_hseq>
+      <Hsp_midline>||||||| | | ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|21</Hit_id>
+  <Hit_def>Cooper Complete Sequence, 70654 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>21</Hit_accession>
+  <Hit_len>70654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.1402</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>1.83741</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>47786</Hsp_hit-from>
+      <Hsp_hit-to>47801</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>CCGCCAGCGCGGTCTC</Hsp_qseq>
+      <Hsp_hseq>CCGCCAGCGCGGTCTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|108</Hit_id>
+  <Hit_def>Suffolk Complete Sequence, 68262 bp, Circularly Permuted, Cluster B1</Hit_def>
+  <Hit_accession>108</Hit_accession>
+  <Hit_len>68262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>10345</Hsp_hit-from>
+      <Hsp_hit-to>10359</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|93</Hit_id>
+  <Hit_def>Reprobate complete sequence, 70120 bp, circularly permuted, Cluster B5</Hit_def>
+  <Hit_accession>93</Hit_accession>
+  <Hit_len>70120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>29784</Hsp_hit-from>
+      <Hsp_hit-to>29802</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GCCCGGTCTGCGCGTACACG</Hsp_qseq>
+      <Hsp_hseq>GCCCGG-CTGCGCGTACACG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|88</Hit_id>
+  <Hit_def>Pops complete sequence, 68367 bp, circularly permuted, Cluster B1</Hit_def>
+  <Hit_accession>88</Hit_accession>
+  <Hit_len>68367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>10343</Hsp_hit-from>
+      <Hsp_hit-to>10357</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|84</Hit_id>
+  <Hit_def>Phelemich complete sequence, 70115 bp, circularly permuted, Cluster B5</Hit_def>
+  <Hit_accession>84</Hit_accession>
+  <Hit_len>70115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>29779</Hsp_hit-from>
+      <Hsp_hit-to>29797</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GCCCGGTCTGCGCGTACACG</Hsp_qseq>
+      <Hsp_hseq>GCCCGG-CTGCGCGTACACG</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|72</Hit_id>
+  <Hit_def>Nacho complete sequence, 69321 bp, circularly permuted, Cluster B1</Hit_def>
+  <Hit_accession>72</Hit_accession>
+  <Hit_len>69321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>10346</Hsp_hit-from>
+      <Hsp_hit-to>10360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|54</Hit_id>
+  <Hit_def>KLucky39 Final Sequence, 68138 bp, Circularly Permuted, Cluster B1</Hit_def>
+  <Hit_accession>54</Hit_accession>
+  <Hit_len>68138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>10346</Hsp_hit-from>
+      <Hsp_hit-to>10360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|44</Hit_id>
+  <Hit_def>Hetaeria complete sequence, 68405 bp, circularly permuted, Cluster B1</Hit_def>
+  <Hit_accession>44</Hit_accession>
+  <Hit_len>68405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>10346</Hsp_hit-from>
+      <Hsp_hit-to>10360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|38</Hit_id>
+  <Hit_def>Gyarad complete sequence, 68004 bp, circularly permuted, Cluster B1</Hit_def>
+  <Hit_accession>38</Hit_accession>
+  <Hit_len>68004</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>10346</Hsp_hit-from>
+      <Hsp_hit-to>10360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|18</Hit_id>
+  <Hit_def>Chunky complete sequence, 68249 bp, circularly permuted, Cluster B1</Hit_def>
+  <Hit_accession>18</Hit_accession>
+  <Hit_len>68249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.3368</Hsp_bit-score>
+      <Hsp_score>30</Hsp_score>
+      <Hsp_evalue>6.41319</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>10346</Hsp_hit-from>
+      <Hsp_hit-to>10360</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>GCAGCCGTGCCGCGA</Hsp_qseq>
+      <Hsp_hseq>GCAGCCGTGCCGCGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>129</Statistics_db-num>
+      <Statistics_db-len>8841557</Statistics_db-len>
+      <Statistics_hsp-len>24</Statistics_hsp-len>
+      <Statistics_eff-space>2174261406</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.2.29+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>database/all_B_noB3</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>phaedrus_gp92</BlastOutput_query-def>
+  <BlastOutput_query-len>1059</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>phaedrus_gp92</Iteration_query-def>
+  <Iteration_query-len>1059</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|74</Hit_id>
+  <Hit_def>gi|192758230|gb|EU770221.1| Mycobacterium phage Nigel, complete genome</Hit_def>
+  <Hit_accession>74</Hit_accession>
+  <Hit_len>69904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.483</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>3.0591e-87</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>66475</Hsp_hit-from>
+      <Hsp_hit-to>67148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>485</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>683</Hsp_align-len>
+      <Hsp_qseq>GTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGT--TCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCC---TCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GTCAGCCCCAGCAGCTGGCGCACCTCGGCCAGGCGCTTGTCGGGCTCGCCGGTGTGGCGCAGGCTCACGCTCGACCGGGCGGCGTGCTCGGCCATGCGCTGCGTGTTGGCGCACACGATGCGCACCGGGCTGATGATGGCCCGCAGCGCGTCCTCGCCGGTGTGGTTGTTCAGGATGCTGATGTACAGATCGGTGACGTCCAGCTCCCCGGTAACCGGC--GACCGGAACTCCATGTGGGCGGGCATCTTCATGGTGACGAAGGTGTCCCGGCCACCGCGCAGCGCGCCGATGGTCTCGATGTGCGCGCCGCCCTCGTCCACGATCTGGCTGAGCAGCGCGGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGGGCCTCGGTGCC--GCCGTTGACGGGGTTCGTGCGGACCACCACGTGGCGGTCGGGCACGGTGAGGCTCAGGGT---GCCCTCGCCGGTCTGGTCGGGCACCTCGGCCGTCAACGGCACCTTGCGCACGTCCCAGCCGCGCATGTGGGCGGCGTCCAGGGCCTCGTCGGTGGTCATCAGGTGGCCGACCGGCGTGCCGAGCTTGTGCCAGGCGTCGACCAGCCCGTTGGCGTCGGTGCGGCTGTCCGCAAAGCTGGTGATGCCGTCGGTGGTGTCGAGTTCGTGTGCCAT</Hsp_hseq>
+      <Hsp_midline>||||| ||||| | | | || |||||  |||  ||    |  | ||| |||||||| || |     ||||  |||  ||| ||  | || ||||| ||||||||||| ||||| |||| ||| |||||||||||| | ||   |||   | |  |||||  ||||| ||| | |||    | |||||| ||||| |||||  ||| |||||| | |||   |||| |   ||||||||| |||||||||||||||| |||||||||   || || |||   ||    |||  |||||||||   |||||||  ||||||   ||| | |   || |||  ||| |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||   |||||||  |||||||||||||||   |||     | |||| | |  ||   ||  |||   | | ||||||  |   ||||  |  | ||||   |  || | |||||| ||||||||||| ||||||||||||||||| |||  ||||||||  ||||||  ||||||||||| |  ||||||||||||||| |||||||||   ||||| |||  |  ||||||||| || |||||| | |  ||||| ||||||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|49</Hit_id>
+  <Hit_def>KayaCho complete corrected sequence, 70838 bp, circularly permuted</Hit_def>
+  <Hit_accession>49</Hit_accession>
+  <Hit_len>70838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.269</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.54011e-85</Hsp_evalue>
+      <Hsp_query-from>384</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>67979</Hsp_hit-from>
+      <Hsp_hit-to>68660</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>488</Hsp_identity>
+      <Hsp_positive>488</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>690</Hsp_align-len>
+      <Hsp_qseq>ACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCA---TCTCGGTCTCGTCGTCGCCGCCC------TCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCG-GAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>ACGTCAGCCCGAGCAGCGCCCGCACCTCGGCCAGACGGGCCTTCGGGGAGCCGGTGTGGCGCAGCGCCACCTGGGACCGCGCCGAGCCCTCGGCCATCCGCTGAGTGTTGGCGCACACGATCCGCACCGGGCTGATCAGCGCCCGCAGGCTGGCCTCGCCCGAGTGGTTGTTCAGGACGGAGATATACAGGTCGGTGGTGTCCAGCTCGCCCGTGACCGGGCTGCGAAACTCCATGTGGGCGGGCATCTTCATCGTGACGAAGGTGTCCCGGCCACCGCGCAGCGCGCCGATGGTCTCGATGTGTGCGCCGCCCTCGTCCACGATCTCGCTCAGCAGCTCGGTGGTCTCCTCGTTCTGGAACGGGGTCC--ACCGGTCACCGACCACGCCCAGCGCCTCGGTGCC--GCCGTTGATCGGGTTGGTCCGCACCACCGCGTAGCGGTCGGGAA---CGATCAGGCTGAGGGTCGCGCCCTCCACGCCCGACTGGTCCGGCACCTCGGCGGTCAGCGGCACCTTGCGGACGTCCCAGCCGCGCATGTGGGCGGCGTCCAGGGCCTCGTCGGTGGTCATGGCGTGGCCGACGGCCTGGCCGAGGCGGTGCCAGGCGCTGACTGTGCCGTCGGCGCGGGCCTCGG-AGTCGGCGAAGCTGGTCACGCCGTCGGTGGTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>||||||| || || | |  ||| |||||  |||  ||| ||| ||     |||||||| || | ||  ||  |||||   ||||  |  || ||||||||||| ||||| ||||| ||||  || |||||||||||   |||   ||||||| |  ||||   ||||| ||| | ||  || |  |||||||||||   |||  |||  || |||| |||||||   |  ||||||||| ||||||||||||| || |||||||||   || || |||   ||    |||  |||||||||    ||||||  ||||||   ||| |||  ||| |||| ||| |||  ||||||||||||||||||||  | || |  |||||||| || || | |||  | ||   |||||||||||||| || || |||    || |   | |||| |   ||| ||   |   |||| || | ||  |||||      || |  |  | |||    || || | |||||| ||||||||||| ||||||||||||||||| |||  ||||||||  ||||| ||||||||||| |||||||||||   |||||| |||  |||  ||||||  ||| | | | |||  ||||||||||||| |||| ||||| ||||||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|17</Hit_id>
+  <Hit_def>ChrisnMich Complete Sequence, 70428 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>17</Hit_accession>
+  <Hit_len>70428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.662</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>5.53099e-84</Hsp_evalue>
+      <Hsp_query-from>386</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>66850</Hsp_hit-from>
+      <Hsp_hit-to>67523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>485</Hsp_identity>
+      <Hsp_positive>485</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>685</Hsp_align-len>
+      <Hsp_qseq>GTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAG-GCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCC---TCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GTCAGGCCCAGCAGCTGGCGCACCTCGGCCAGGCGCTTGTCCGGCTCACCCGTGTGGCGCAGGCTCACGCAGCTGCGGGCGGCGTGCTCGGCCATCCGCTGCGTGTTGGCGCACACGATGCGCACCGGGCTGATGATGGCCCGCAGCGCGTCCTCACCCGT-GTGGTTGTTCAGGATGCTGATGTACAGGTCGGTGATGTC---CTTGAGCCCGGTCACGGGGCTGACGAACTCCATGTGGGCGGGCATCTTCATGGTGACGAAGGTGTCCCGGCCACCGCGCAGCGCGCCGATGGTCTCGATGTGCGCGCCGCCCTCGTCCACGATCTGGCTGAGCAGCGCGGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGGGCCTCGGTGCC--CCCGTTAACCGGGTTCGTGCGGACCACCACGTGGCGGTCGGGCACGGTCAGGCTCAGGGT---GCCCTCGCCGGACTGGTCGGGCACCTCTGCGGTGAGCGGCACCTTGCGCACGTCCCAGCCGCGCATGTGGGCGGCGTCCAGGGCCTCGTCGGTGGTCATCAGATGGCCGACCGGGGTGCCCAGCTTGTGCCAGGCGTCCACCAGCCCGTTGGCGTCGGTGCGGCTGTCCGCGAAGCTGGTGACGCCGTCGGTGGTATCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||| | | | || |||||  |||  ||    | || ||| || ||||| || |     |||| |     ||| ||  | || ||||||||||||||||| ||||| |||| ||| |||||||||||| | ||   ||| ||  || |  |||| ||||| ||| | |||    | |||||||||||| | |||   |||   |||||| |  |||||||| |  ||||||||| |||||||||||||||| |||||||||   || || |||   ||    |||  |||||||||   |||||||  ||||||   ||| | |   || |||  ||| |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||  |||||| | ||||||||||||||||   |||     | |||| | |   |   ||  |||   | | ||||||  |   ||||  |  |  ||   ||| || | |||||| ||||||||||| ||||||||||||||||| |||  ||||||||  ||||||   ||||||||||    ||| ||||||||||| ||||| |||   ||||| |||  |  ||||||||| ||||||||| | || ||||| ||||| ||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|48</Hit_id>
+  <Hit_def>JAMaL complete sequence, 70841 bp, circularly permuted, Cluster B4</Hit_def>
+  <Hit_accession>48</Hit_accession>
+  <Hit_len>70841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.842</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.00003e-80</Hsp_evalue>
+      <Hsp_query-from>325</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>67646</Hsp_hit-from>
+      <Hsp_hit-to>68380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>745</Hsp_align-len>
+      <Hsp_qseq>CGACATCTCGATCTTCGCCATCTCCTCGACCTCGGCGACGTAGGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGC---CGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCC---TCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>CGTCATCTCCCGCTTGATCAGCTTCTCCACCTGCTCCACGAACGTGTCGCGGTACTGGAAGGTCAGCCCCAGCAGCTGGCGAATCTCGGCCAGGCGCTTGTCCGGCGTGCCGGTGTGGCGCAGGGTGGCGGTGCTGCGGGCGGCGCTCTCGGCCATGCGCTGCGTGTTGGCGCACACGATGCGCACCGGGGCGATGAGCGCGCGGAGCGGGGCCTGGCCGGTGTGGTTGTTCAGGACGCTGATGTACAGGTCCGTCACGTCCAGCTCACCGGTCACCGGGCTGCGAAACTCCATGTGGCTGGGCAGCTTCATGGTGACGAAGGTGTCCCGCCCGCCGCGCAGCGCGCCGATGGTCTCGATGTGCGCGCCGCCCTCATCCACGATCTGGTTCAGCAGCTCGGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGGGCCTCGGTGCC--GCCGTTGACCGGGTTCGTGCGCAAC---ACGACGTTGCGATCCGGCACG--GTCAAGCTCAGGGT-GCCCTCGCCGGTCTGGTCGGGCACCTCGGCGGTCAGGGGCATGGTGCGCACGTCCCAGCCGCGCATGTGGGCGGCGTCCAGGGCCTCGTCGGTGGTCATCAGGTGGCCGACCGGGGTGCCCAGCTTGTGCCAGGCGTCCACCCGGCCGTTGGCGTCCACGCGGCTGTCCGCGTAGCTGGTGACGCCGTTGGTGGTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||   |||   || || ||| ||||   | ||| | |||||  ||||||   | ||||| ||||| | | | || | |||  |||  ||    | || |   |||||||| || |  | | ||  |     ||| || |  || ||||| ||||||||||| ||||| |||| ||| ||||||  ||||  ||||   ||   | |   ||||  ||||| ||| | ||     | ||||||||| ||||||||  |||  ||||| | |||||||   |  |||||||||  ||||| ||||||||| |||||||||   || ||||||   ||    |||  |||||||||   |||||||  ||| ||   ||| | |  ||| |||| ||| |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||   ||||||| |||||||||||| | |   ||||  ||||   | || | |  | | | ||| |  | | | ||||||  |   ||||  |  | |||    ||||| ||  |||| ||||||||||| ||||||||||||||||| |||  ||||||||  ||||||  |||||||||||    ||| ||||||||||| ||||| |||  |||||| |||   ||||||||||| ||| ||||| | || ||||  ||||||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|110</Hit_id>
+  <Hit_def>TA17A complete sequence, 67324 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>110</Hit_accession>
+  <Hit_len>67324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>3.49043e-80</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64017</Hsp_hit-from>
+      <Hsp_hit-to>64741</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>522</Hsp_identity>
+      <Hsp_positive>522</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCATCT-CGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAGGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGTGCGCCTTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGCTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||||||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| || ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|21</Hit_id>
+  <Hit_def>Cooper Complete Sequence, 70654 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>21</Hit_accession>
+  <Hit_len>70654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.039</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>3.49043e-80</Hsp_evalue>
+      <Hsp_query-from>473</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>67477</Hsp_hit-from>
+      <Hsp_hit-to>68069</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>442</Hsp_identity>
+      <Hsp_positive>442</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>611</Hsp_align-len>
+      <Hsp_qseq>TCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAG-GCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCC---GGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGTCTCGTCGTCGCCGCCCT---CGGAGAGGTTGG---CCTGG------AGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>TCGGCCATCCGCTGCGTGTTGGCGCACACGATGCGCACCGGGCTGATGATGGCCCGCAGCGCGTCCTCACCCGT-GTGGTTGTTCAGGATGCTGATGTACAGGTCGGTGATGTC---CTTGAGCCCGGTCACGGGGCTGACGAACTCCATGTGGGCGGGCATCTTCATGGTGACGAAGGTGTCCCGGCCACCG-CGCAGCG--CGCCAATGGTCTCGATGTGCGCGCCGCCCTCGTCCACGATCTGGCTGAGCAGCGCAGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGGGCCTCGGTGCC--CCCGTTGACCGGGTTCGTGCGGACCACCACGTGGCGGTCGGGCA---CCACCAGGCTGAG---CGTTG-CGCCCTCCTCGCCGGACTGGTCCGGCACCTCGGCGGTCAGCGGCACCTTGCGCACGTCCCAGCCGCGCATGTGGGCGGCGTCCAGGGCCTCGTCGGTGGTCATCAGGTGGCCGACCGGGGTGCCCAGCTTGTGCCAGGCGTCCACCAGCCCGTTGGCGTCGGTGCGGCTGTCCGCGAAGCTGGTGACGCCGTCGGTAGTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||| ||||| |||| ||| |||||||||||| | ||   ||| ||  || |  |||| ||||| ||| | |||    | |||||||||||| | |||   |||   |||||| |  |||||||| |  ||||||||| |||||||||||||||| |||||||||   || || ||| ||  ||   ||||   |||||||||   |||||||  ||||||   ||| | |   || |||   || |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||  |||||||| ||||||||||||||||   |||     | |||| |   | ||||  ||  |   ||| | ||||  |||   ||||  |||  |   ||| |      || || | |||||| ||||||||||| ||||||||||||||||| |||  ||||||||  ||||||  |||||||||||    ||| ||||||||||| ||||| |||   ||||| |||  |  ||||||||| ||||||||| | || ||||| || |||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|106</Hit_id>
+  <Hit_def>Stinger Complete Sequence, 69641 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>106</Hit_accession>
+  <Hit_len>69641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.235</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.21828e-79</Hsp_evalue>
+      <Hsp_query-from>473</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>66485</Hsp_hit-from>
+      <Hsp_hit-to>67077</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>598</Hsp_align-len>
+      <Hsp_qseq>TCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAG-GCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGAC-----CGTGACGAACTTGC-CGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>TCGGCCATCCGCTGCGTGTTGGCGCACACAATGCGCACCGGGCTGATGATGGCCCGCAGCGCGTCCTCGCCCGT-GTGGTTGTTCAGGATGCTGATGTACAGGTCGGTGATGTCCAGCTCCCCGGTCACGGGGCTGCGGAACTCCATGTGGGCGGGCATCTTCATGGTGACGAAGGTGTCCCGGCCACCGCGCAGCGCGCCGATGGTCTCGATGTGCGCGCCGCCCTCGTCCACAATCTGGCTGAGCAGCGCGGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGGGCCTCGGTGCC--GCCGTTGACCGGGTTCGTGCGGACCACCACGTGGCGGTCGGGCACCGGCAGGCTGATCGTTGCGCCCTCTTCACCGGACTGGTCGGGCACCTCGGCCGTCAGCGGCACCTTGCGCACGTCCCAGCCGCGCATGTGTGCGGCGTCCAGGGCCTCGTCGGTGGTCATCAGGTGGCCCACCGGAGTGCCGAGCTTATGCCAGGCGTCCACCAGCCCGTTGGCGTCGGTGCGGCTGTCGGCAAAGCTGGTGATGCCGTCGGTGGTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||| ||||| || | ||| |||||||||||| | ||   ||| ||  || |  |||| ||||| ||| | |||    | |||||||||||| | |||  ||| |||||| |  ||||||   |  ||||||||| |||||||||||||||| |||||||||   || || |||   ||    |||  |||||||||   |||||||  ||||||    || | |   || |||  ||| |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||   ||||||| |||||||||||||||     |||| ||  |  || | || | |  || | |  ||  ||| ||  ||      ||||  |  | ||||   || || | |||||| ||||||||||| |||||||| |||||||| |||  ||||||||  ||||||  |||||| ||||    ||||||||| ||||| ||||| |||   ||||| |||  |  |||||||||||| |||||| | |  ||||| ||||||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|127</Hit_id>
+  <Hit_def>Zemanar Final Sequence, 71092 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>127</Hit_accession>
+  <Hit_len>71092</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.25222e-79</Hsp_evalue>
+      <Hsp_query-from>473</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>68079</Hsp_hit-from>
+      <Hsp_hit-to>68665</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>597</Hsp_align-len>
+      <Hsp_qseq>TCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGC---CGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCC---TCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>TCGGCCATGCGCTGCGTGTTGGCGCACACGATGCGCACCGGGGCGATGAGCGCGCGGAGCGGGGCCTGGCCGGTGTGGTTGTTCAGGACGCTGATGTACAGGTCCGTCACGTCCAGCTCACCGGTCACCGGGCTGCGAAACTCCATGTGGCTGGGCAGCTTCATGGTGACGAAGGTGTCCCGCCCGCCGCGCAGTGCGCCGATGGTCTCGATGTGTGCGCCGCCCTCGTCCACGATCTGGTTCAGCAGCTCGGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGCGCCTCGGTGCC--GCCGTTGATCGGGTTCGTGCGGAGC---ACGACGTTGCGATCCGGCACGGTCAGGCTCAGGGT---GCCCTCGCCGGTCTGGTCGGGCACCTCGGCGGTCAGGGGCATGGTGCGCACGTCCCAGCCGCGCATGTGGGCGGCGTCCAGGGCCTCGTCCACCGTCATGGTGTGGCCGACGGGCGTGCCCAGCTTGTGCCAGGCGTCCACCCGTCCGCTGGCGTCCACTCGGCTGTCGGCAAAGCTGGTGACGCCATCGGTGGTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|| ||||| ||||||||||| ||||| |||| ||| ||||||  ||||  ||||   ||   | |   ||||  ||||| ||| | ||     | ||||||||| ||||||||  |||  ||||| | |||||||   |  |||||||||  ||||| ||||||||| |||||||||   || ||||||   ||    |||  |||||||||    ||||||  ||||||   ||| | |  ||| |||| ||| |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||   |||||||||||||||||||||| |   ||||  ||||   | || | |   |   ||  |||   | | ||||||  |   ||||  |  | |||    ||||| ||  |||| ||||||||||| ||||||||||||||||| |||  ||||||  ||||||| | ||||||||| | |  ||| ||||||||||| ||||| |||   ||| | |||   || ||||||||||| |||||| | || || || ||||||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|95</Hit_id>
+  <Hit_def>gi|29424918|gb|AY129334.1| Mycobacteriophage Rosebush, complete genome</Hit_def>
+  <Hit_accession>95</Hit_accession>
+  <Hit_len>67480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.25222e-79</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64174</Hsp_hit-from>
+      <Hsp_hit-to>64898</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>521</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAGGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGTGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||||||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|57</Hit_id>
+  <Hit_def>Laurie complete sequence, 66507 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>57</Hit_accession>
+  <Hit_len>66507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.25222e-79</Hsp_evalue>
+      <Hsp_query-from>331</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>63498</Hsp_hit-from>
+      <Hsp_hit-to>64232</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>527</Hsp_identity>
+      <Hsp_positive>527</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>767</Hsp_align-len>
+      <Hsp_qseq>CTCGATCTTCGCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCATCT-CGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>CTCGCGCTGCGCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGCGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTCACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGCTGCGGTTCCGGCTGAACCTCCAACTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>||||  || ||||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | | | |||||| ||||   ||| |||   | ||  ||| || | |||||||| || ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|36</Hit_id>
+  <Hit_def>Glass complete sequence, 67509 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>36</Hit_accession>
+  <Hit_len>67509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.25222e-79</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64191</Hsp_hit-from>
+      <Hsp_hit-to>64915</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>521</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAGGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGTGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||||||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|33</Hit_id>
+  <Hit_def>Frederick Complete Sequence, 71184 bp, Circularly Permuted, Cluster B4</Hit_def>
+  <Hit_accession>33</Hit_accession>
+  <Hit_len>71184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.25222e-79</Hsp_evalue>
+      <Hsp_query-from>473</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>68180</Hsp_hit-from>
+      <Hsp_hit-to>68766</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>597</Hsp_align-len>
+      <Hsp_qseq>TCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGC---CGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCC---TCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>TCGGCCATGCGCTGCGTGTTGGCGCACACGATGCGCACCGGGGCGATGAGCGCGCGGAGCGGGGCCTGGCCGGTGTGGTTGTTCAGGACGCTGATGTACAGGTCCGTCACGTCCAGCTCACCGGTCACCGGGCTGCGAAACTCCATGTGGCTGGGCAGCTTCATGGTGACGAAGGTGTCCCGCCCGCCGCGCAGTGCGCCGATGGTCTCGATGTGTGCGCCGCCCTCGTCCACGATCTGGTTCAGCAGCTCGGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGCGCCTCGGTGCC--GCCGTTGATCGGGTTCGTGCGGAGC---ACGACGTTGCGATCCGGCACGGTCAGGCTCAGGGT---GCCCTCGCCGGTCTGGTCGGGCACCTCGGCGGTCAGGGGCATGGTGCGCACGTCCCAGCCGCGCATGTGGGCGGCGTCCAGGGCCTCGTCCACCGTCATGGTGTGGCCGACGGGCGTGCCCAGCTTGTGCCAGGCGTCCACCCGTCCGCTGGCGTCCACTCGGCTGTCGGCAAAGCTGGTGACGCCATCGGTGGTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|| ||||| ||||||||||| ||||| |||| ||| ||||||  ||||  ||||   ||   | |   ||||  ||||| ||| | ||     | ||||||||| ||||||||  |||  ||||| | |||||||   |  |||||||||  ||||| ||||||||| |||||||||   || ||||||   ||    |||  |||||||||    ||||||  ||||||   ||| | |  ||| |||| ||| |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||   |||||||||||||||||||||| |   ||||  ||||   | || | |   |   ||  |||   | | ||||||  |   ||||  |  | |||    ||||| ||  |||| ||||||||||| ||||||||||||||||| |||  ||||||  ||||||| | ||||||||| | |  ||| ||||||||||| ||||| |||   ||| | |||   || ||||||||||| |||||| | || || || ||||||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|28</Hit_id>
+  <Hit_def>Eaglehorse complete sequence, 67391 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>28</Hit_accession>
+  <Hit_len>67391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.432</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>4.25222e-79</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64060</Hsp_hit-from>
+      <Hsp_hit-to>64784</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>521</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAGGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGCGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||||||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|37</Hit_id>
+  <Hit_def>Godines complete sequence, 67277 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>37</Hit_accession>
+  <Hit_len>67277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.629</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.48417e-78</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64097</Hsp_hit-from>
+      <Hsp_hit-to>64821</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>518</Hsp_identity>
+      <Hsp_positive>518</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>754</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCATCT-CGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGCGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTCTTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGCTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||      |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| || ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12</Hit_id>
+  <Hit_def>Browncna complete sequence, 71214 bp, circularly permuted, Cluster B4</Hit_def>
+  <Hit_accession>12</Hit_accession>
+  <Hit_len>71214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.825</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>5.18026e-78</Hsp_evalue>
+      <Hsp_query-from>325</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>68165</Hsp_hit-from>
+      <Hsp_hit-to>68899</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>515</Hsp_identity>
+      <Hsp_positive>515</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>745</Hsp_align-len>
+      <Hsp_qseq>CGACATCTCGATCTTCGCCATCTCCTCGACCTCGGCGACGTAGGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTC--TACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGC---CGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCC---TCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>CGACATCTCGCGCTTGATCAGCTTCTCCACCTGCTCCACGAACGTGTCGCGGTACTGGAAGGTCAGCCCCAGCAGCTGGCGAATCTCGGCCAGGCGCTTGTCCGGCGTGCCGGTGTGGCGCAGTGTGGCGGTGCTGCGGGCGGCGTGCTCGGCCATGCGCTGCGTGTTGGCGCACACGATGCGCACCGGGGCGATGAGCGCGCGGAGCGGGGCCTGGCCGGTGTGGTTGTTCAGGACGCTGATGTACAGGTCCGTCACGTCCATCTCGCCGGTCACCGGGCTGCGGAACTCCATGTGGCTGGGCAGCTTCATGGTGACGAAGGTGTCCCGCCCGCCGCGCAGCGCACCGATGGTCTCGATGTGCGCGCCGCCCTCGTCCACGATCTGGTTCAGCAGCTCGGTGGTCTGCTCGTTCTGGAACGGGGTCCAG--CGGTTGCCGACCACGCCCAGCGCCTCGGTGCC--GCCGTTGACCGGGTTCGTCCGCAGC---ACGACGTTGCGATCCGGCACGGTCAGGCTCAGGGT---GCCCTCGCCGGTCTGGTCGGGCACCTCGGCGGTCAGGGGCATGGTGCGCACGTCCCAGCCGCGCATGTGTGCGGCGTCCAGGGCCTCGTCCACCGTCATGGTGTGGCCGACGGGCGTGCCCAGCTTGTGCCAGGCGTCAACGCGCCCGCTGGCGTCAACGCGGCTGTCGGCAAAGCTGGTGACGCCGTCGGTGGTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>||||||||||  |||   || || ||| ||||   | ||| | |||||  ||||||   | ||||| ||||| | | | || | |||  |||  ||    | || |   |||||||| || |  | | ||  |     ||| ||  | || ||||| ||||||||||| ||||| |||| ||| ||||||  ||||  ||||   ||   | |   ||||  ||||| ||| | ||     | ||||||||| ||||||||   ||  ||||| | |||||||   |  |||||||||  ||||| ||||||||| |||||||||   || ||||||   ||    |||  |||||||||   |||||||  ||||||   ||| | |  ||| |||| ||| |||  ||||||||||||||||||||||  || |  |||||||| || || | |||  | ||   ||||||| ||||||||| || | |   ||||  ||||   | || | |   |   ||  |||   | | ||||||  |   ||||  |  | |||    ||||| ||  |||| ||||||||||| |||||||| |||||||| |||  ||||||  ||||||| | ||||||||| | |  ||| ||||||||||| ||||| ||    ||| | |||   |||||||||||||| |||||| | || ||||| ||||||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|114</Hit_id>
+  <Hit_def>Tres complete genome, 67349 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>114</Hit_accession>
+  <Hit_len>67349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.022</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.80809e-77</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64035</Hsp_hit-from>
+      <Hsp_hit-to>64759</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGCGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|92</Hit_id>
+  <Hit_def>gi|91980702|gb|DQ398048.1| Mycobacteriophage Qyrzula, complete genome</Hit_def>
+  <Hit_accession>92</Hit_accession>
+  <Hit_len>67188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.022</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.80809e-77</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64205</Hsp_hit-from>
+      <Hsp_hit-to>64929</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGAGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|62</Hit_id>
+  <Hit_def>LizLemon complete sequence, 67496 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>62</Hit_accession>
+  <Hit_len>67496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.022</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.80809e-77</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64190</Hsp_hit-from>
+      <Hsp_hit-to>64914</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGCGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|50</Hit_id>
+  <Hit_def>Kheth complete sequence, 67406 bp, circularly permuted, Cluster B2</Hit_def>
+  <Hit_accession>50</Hit_accession>
+  <Hit_len>67406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.022</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.80809e-77</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64100</Hsp_hit-from>
+      <Hsp_hit-to>64824</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>521</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---CGTCGCCGCCCT------CGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGCGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGTACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||   ||||| || | |      | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|5</Hit_id>
+  <Hit_def>Arbiter Complete Sequence, 67169 bp, Circularly Permuted, Cluster B2</Hit_def>
+  <Hit_accession>5</Hit_accession>
+  <Hit_len>67169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.022</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>1.80809e-77</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64174</Hsp_hit-from>
+      <Hsp_hit-to>64898</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>520</Hsp_identity>
+      <Hsp_positive>520</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGGGAGATGACCGCGCGCAGTGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| |||  ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|41</Hit_id>
+  <Hit_def>Hedgerow</Hit_def>
+  <Hit_accession>41</Hit_accession>
+  <Hit_len>67451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.415</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>2.2027e-76</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64148</Hsp_hit-from>
+      <Hsp_hit-to>64872</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>519</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGAGAGATGACCGCGCGCAGTGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| ||   ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|6</Hit_id>
+  <Hit_def>Ares</Hit_def>
+  <Hit_accession>6</Hit_accession>
+  <Hit_len>67436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.415</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>2.2027e-76</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>64133</Hsp_hit-from>
+      <Hsp_hit-to>64857</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>519</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>757</Hsp_align-len>
+      <Hsp_qseq>GCCATCTCCTCGACCTCGGCGACGTA-GGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCC--GCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGATCCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCA-TCTCGGT-----------------CTCGT---------CGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACT-CGTCGGCCGT-CATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GCCATGGCCTCGAACTCGGTG-CGCATGGTCTCGTCCAGCTTGAACGTCAAGCCCAGGATGCGGCGCACCTCTTCCAGGCGCACGTCGGCGTTGCCGGTGTGCCGGATCGACACCTGGGACACGGCGTTGGCC--TCGGCCAGGCGCTGGGTGTTGGCGCACACCACCCGAACGGGAGAGATGACCGCGCGCAGTGCGCCCTGGCCGTCGTGGTGGTTGAACACCGCCAGGTACAGCTTGGTCACGTC---CTTGAACCCGG---TCGGCGCGGTCAGCTCCATGTGGTCCGGCATCAGCATGGTGACGAAGGTGCGCCGCCCGCCGTCCAGGGCACCGATGGTCTCGATGTGCGCGCCGGACTGGTCGCAGATGTTGTAGAGCAGGCCGGTGGTGGCCTCGTTCTGGAACGGCTGCCACCAGGCACCGATGACGCCCAGCGGCTCGGCGGCCTTGGTGACCGGGTTGGTGCGCAGGATCGT---GTACCGGCCCGGTACGTCGACCAGTTGCGGTTCCGGCTGAACCTCCAGCTCGTTGCCGTCGGCGTCGTGGCGCACCGCGATGTCGGCGCGCAGCGGCACCTTGCGTACGTCCCAGTCGAGCATGTTGGCGGCCGCCAGGGCCTCCATCGG--GTCCATCTTGTGGCCGACCTGCTGGCCGAGCTGGTGCCAGGCGTCGGTCT------------------GGCTGTCGGCGAAGCTGACCACGCCGTTGGTGCTGTCGAGTTCGTGGGCCAT</Hsp_hseq>
+      <Hsp_midline>|||||  |||||| ||||| | || | ||| || |    |||  |||||| ||||||||| || || ||||||||||  || || |  || |  ||||||||||||||||| ||  ||||||||||   | ||  || ||||  ||||| ||||| ||||| || || ||||| ||   ||||  ||||  |||   |||   |||||||||||||||||| | || ||||||||| | |||||||||   |||   |||||   ||||   |  ||| ||||||||||| ||||||  |||||| ||||||||||| || |||||||| |||   |||  |||||||||   ||||||||||| ||||  ||||| | | || ||   ||| ||   |||||||||||||||   |||  | |  ||||  || || || |||||  |   |  | ||| |||||| ||||   ||| |||   | ||  ||| || | |||||||| |  ||||                 |||||         |||||  || | | | || || |||  | || || | |||||| ||||||||| |  |||||| ||||||  | |||  || | ||||  || ||||  ||||||||||  ||||||||||| |||||| ||||||  ||                  |||||||||||||||||  ||| ||||  ||| ||||||  || || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|84</Hit_id>
+  <Hit_def>Phelemich complete sequence, 70115 bp, circularly permuted, Cluster B5</Hit_def>
+  <Hit_accession>84</Hit_accession>
+  <Hit_len>70115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.314</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>4.25598e-60</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>984</Hsp_query-to>
+      <Hsp_hit-from>65978</Hsp_hit-from>
+      <Hsp_hit-to>66874</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>623</Hsp_identity>
+      <Hsp_positive>623</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>933</Hsp_align-len>
+      <Hsp_qseq>CGTGCGCAGCGCCCGCTTCACGTCGACGTTGTCCTTGCCACGGACCGGCATGTAGTGGTCGACCCACTCGGTCACGGCGTTGTAGCCGCCGAACGCGACGCCACGGAAGTCATCGACCGTCGCCGACGACCGGTAGATCTCGAAGGCCTCCGTCGCCATCTGCGT---CCGCTGCGACGC-CGACC---GCGACT---CGGGGTCGACCTTGTCGACCTCGAACACG--------CTCCGCATGATGGCAAACGTCTCGACGTTCGACATCTCGATCTTCGCCATCTCCTCGACCTCGGCGACGTAGGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCG-GTGATCGGGCTGACCAGTTCCATGTG-GTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCCTCGG--AGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTC</Hsp_qseq>
+      <Hsp_hseq>CGTGCGCACCGCGCGCTTGGCAGCCTGGTCGCCCTTGCCCAGCACCGGCATGAAGTGGTCGGCGTACTCGGTGACGGCGTTGTAGGCGGCGTACGCGGTGCCCTCGAACGGTTTGACGCTCGGCGACTGCCGC---ATCAC------CTCCATCACC---TGCGTGACCCGCT-CGACGCGCGCCCCGCGCATCTTGTCGGACTCCGCCTTGTTGACGCCGAACACGTCGTTGAACACCGCGCGCACCCA--CTGCTCGTCG--CG----CTCCGCCTTCACCAGCGCCTCCATCTCGGCGGCGAACACGTCGGTGTACTTGAACGTCAGGCCCAGCAGCTTGCGTACCTCGGCCAGCTTGGCGGTCGGCGCGCCCGTGTGCCGCAGGGCGACCGAGGAGACCGCTGCAGCCTCAGCGATGCGCTGCGTGTTGGCGCACACGATGCGAACCGGCGAGATGACCGCCCGCAGGCTGCCCTGCCCGTCGTGGTGGTTGATGACGGCCAGGTACACCTCGGTGGTGTC---CTTGAACCCGTCTGCACCCG-TGAAC---TCCACGTGCGTC-GGCATCAGCATCGTGACGAACGTGCGCCGACCGCCGTCCAGTGAGCCGATGGTCTCGATGTGCGCGCCGGACTGGTCGGTGATGTCGTAGAGCAGATCGGTGGTCTCCTCGTTCTGGTACGGCTGCCAG--CGGTCGCCGACGACGGCCAGCGCCTCCGGCATGAGGGTGTGCGGGTTGGTCCGCAGCACGGTCCACTGGCCCGG--TG-CAGCCACCTCGATCTCGCCATCGAGACCGTCGGGCACCGTCTGGC--GGTGCTCGATCTTGCGGACGTTCCAGCCGTTCATGTGCGCGGCTTCCAGCGCCTCCGCCGGGGTCATCGTGTGGCCGATCTTCTGGCCGAGACCGTGCCAGGCGTC</Hsp_hseq>
+      <Hsp_midline>|||||||| ||| |||||  |  |   || | |||||||  | ||||||||| |||||||| |  ||||||| |||||||||||| || || |||||  |||   |||    | |||  ||| ||||  |||    ||| |      |||| || ||   |||||   ||||| |||||| || ||   ||  ||   |||  ||  |||||| |||  ||||||||        | ||||  |    ||  |  |||| ||  ||    |||   |||| ||| | |||| | ||||||| || |   |||   ||||||  ||||||||||||| | |   || |||||  ||| |  | |   || | | || |||||||| |  | |||   ||| || || ||    || || || ||||||||||| ||||| |||| |||||||||   ||||  |||   |||||||||    |||||||||||||||| ||  | ||||||||  |||||   |||   |||   ||||  ||  |  | ||| |   |||| ||| ||| ||||||  ||| || ||||| ||||| || |||||||| ||    |||  |||||||||   ||||||||||| ||||||||||||| | || || | ||| |||  |||||||||| ||||   ||||  || |  ||||| ||  | || | |||   | |   | ||  |||||| || || | |  |    ||| ||| ||  || |  ||| |||| ||||| | |||   || ||||  |  |  ||||  || |   ||||||||| |||| ||||||   |||||| ||||| || ||   |||  | |  ||||||| |||||||| |  |||||||||   |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|93</Hit_id>
+  <Hit_def>Reprobate complete sequence, 70120 bp, circularly permuted, Cluster B5</Hit_def>
+  <Hit_accession>93</Hit_accession>
+  <Hit_len>70120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.904</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.80969e-58</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>984</Hsp_query-to>
+      <Hsp_hit-from>65983</Hsp_hit-from>
+      <Hsp_hit-to>66879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>622</Hsp_identity>
+      <Hsp_positive>622</Hsp_positive>
+      <Hsp_gaps>63</Hsp_gaps>
+      <Hsp_align-len>933</Hsp_align-len>
+      <Hsp_qseq>CGTGCGCAGCGCCCGCTTCACGTCGACGTTGTCCTTGCCACGGACCGGCATGTAGTGGTCGACCCACTCGGTCACGGCGTTGTAGCCGCCGAACGCGACGCCACGGAAGTCATCGACCGTCGCCGACGACCGGTAGATCTCGAAGGCCTCCGTCGCCATCTGCGT---CCGCTGCGACGC-CGACC---GCGACT---CGGGGTCGACCTTGTCGACCTCGAACACG--------CTCCGCATGATGGCAAACGTCTCGACGTTCGACATCTCGATCTTCGCCATCTCCTCGACCTCGGCGACGTAGGTGTCCTGGTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTT---CCCG-GTGATCGGGCTGACCAGTTCCATGTG-GTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCCTCGG--AGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTC</Hsp_qseq>
+      <Hsp_hseq>CGTGCGCACCGCGCGCTTGGCAGCCTGGTCGCCCTTGCCCAGCACCGGCATGAAGTGGTCGGCGTACTCGGTGACGGCGTTGTAGGCGGCGTACGCGGTGCCCTCGAACGGTTTGATGCTCGGCGACTGCCGC---ATCAC------CTCCATCACC---TGCGTGACCCGCT-CGACGCGCGCCCCGCGCATCTTGTCGGACTCCGCCTTGTTGACGCCGAACACGTCGTTGAACACCGCGCGCACCCA--CTGCTCGTCG--CG----CTCCGCCTTCACCAGCGCCTCCATCTCGGCGGCGAACACGTCGGTGTACTTGAACGTCAGGCCCAGCAGCTTGCGTACCTCGGCCAGCTTGGCGGTCGGCGCGCCCGTGTGCCGCAGGGCGACCGAGGAGACCGCTGCAGCCTCAGCGATGCGCTGCGTGTTGGCGCACACGATGCGAACCGGCGAGATGACCGCCCGCAGGCTGCCCTGCCCGTCGTGGTGGTTGATGACGGCCAGGTACACCTCGGTGGTGTC---CTTGAACCCGTCTGCACCCG-TGAAC---TCCACGTGCGTC-GGCATCAGCATCGTGACGAACGTGCGCCGACCGCCGTCCAGTGAGCCGATGGTCTCGATGTGCGCGCCGGACTGGTCGGTGATGTCGTAGAGCAGATCGGTGGTCTCCTCGTTCTGGTACGGCTGCCAG--CGGTCGCCGACGACGGCCAGCGCCTCCGGCATGAGGGTGTGCGGGTTGGTCCGCAGCACGGTCCACTGGCCCGG--TG-CAGCCACCTCGATCTCGCCATCGAGACCGTCGGGCACCGTCTGGC--GGTGCTCGATCTTGCGGACGTTCCAGCCGTTCATGTGCGCGGCTTCCAGCGCCTCCGCCGGGGTCATCGTGTGGCCGATCTTCTGGCCGAGACCGTGCCAGGCGTC</Hsp_hseq>
+      <Hsp_midline>|||||||| ||| |||||  |  |   || | |||||||  | ||||||||| |||||||| |  ||||||| |||||||||||| || || |||||  |||   |||    | ||   ||| ||||  |||    ||| |      |||| || ||   |||||   ||||| |||||| || ||   ||  ||   |||  ||  |||||| |||  ||||||||        | ||||  |    ||  |  |||| ||  ||    |||   |||| ||| | |||| | ||||||| || |   |||   ||||||  ||||||||||||| | |   || |||||  ||| |  | |   || | | || |||||||| |  | |||   ||| || || ||    || || || ||||||||||| ||||| |||| |||||||||   ||||  |||   |||||||||    |||||||||||||||| ||  | ||||||||  |||||   |||   |||   ||||  ||  |  | ||| |   |||| ||| ||| ||||||  ||| || ||||| ||||| || |||||||| ||    |||  |||||||||   ||||||||||| ||||||||||||| | || || | ||| |||  |||||||||| ||||   ||||  || |  ||||| ||  | || | |||   | |   | ||  |||||| || || | |  |    ||| ||| ||  || |  ||| |||| ||||| | |||   || ||||  |  |  ||||  || |   ||||||||| |||| ||||||   |||||| ||||| || ||   |||  | |  ||||||| |||||||| |  |||||||||   |||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|117</Hit_id>
+  <Hit_def>Vincenzo complete sequence, 72139 bp, circularly permuted, Cluster B4 </Hit_def>
+  <Hit_accession>117</Hit_accession>
+  <Hit_len>72139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.64</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>3.73334e-48</Hsp_evalue>
+      <Hsp_query-from>473</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>68919</Hsp_hit-from>
+      <Hsp_hit-to>69502</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>405</Hsp_identity>
+      <Hsp_positive>405</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>593</Hsp_align-len>
+      <Hsp_qseq>TCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCA--GGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGAT-GTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGG-AGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>TCTGCCATCCGCTGGGTGTTGGCGCAGACGATGCGCACGGGGCTGATCAACGCCCGCAACGGGTACT--CGCCGGTGTGGTTGTTGAGCAGGCAGATGTACAGGTCGGTGATGTCCAGCTCACCGGTCACCGGGCTGCGAAACTCCATGTGACCCGGCAAGCGCATGGTCACGAAGGTGTCGCGGCCACCGCGCAGCGCCCCGATGGTTTCGATGTGCGCCCCGCCCTCGTCCACCAGCGACGA-CAGCATCGGCGTGGTCTCCTCGTTGCTGAAGGGCACCCAG--CGGTTGCCGACCACGCCCAGCGCCTCGGGCTGGTGGTTGATGGGATTGTCGCGCAGCACCACGTGGCGGTCGGGCAC--CG-CCAGGGCGTACTGCTCGCCGCCGTCGGTGGTGTACTTGGCCACCAGCGGCTGCTTGCGGACGTTCCAGCCGCGCATGTGGGCGGCGTCGAGGGCCTCGTCCACGGTCATCAGGTGACCGACGGGGGTGCCCAGCTTGTGCCAGGCGTCGACGCGCCCGTT-GCGGTCCACGCGGCTGTCGGCGTAGCTGGCCTGGCCGTCGGTGATGTCGATTTCGTGCGCCAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||||| |||||||||| ||| || ||||||||   |||   ||  || | |   |||||  ||||| |||||  |   | | |||||||||||| | |||  |||  ||||| | |||||||   |  ||||||||  | ||||    ||||||||||||||||  ||| || |||   ||    |||  ||| |||||   ||| |||  ||||||    |  | ||| ||| | |   || |||  ||||||   ||| ||   ||||  || |  |||||||| || || | |||   ||    |||||| || ||   ||| | |   |||     | |||| |   || |||   ||  ||  ||| ||||| |   || |   ||||||   || ||   |||||| |||| |||||| |||||||||||||||||||||  ||||||  | ||||||  ||| ||||| |    ||| ||||||||||| ||||||||    ||||| ||||   ||||||||||||||| |||||  |   ||||| ||| ||||||| || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|2</Hit_id>
+  <Hit_def>AlanGrant complete sequence, 72109 bp, circularly permuted, Cluster B4</Hit_def>
+  <Hit_accession>2</Hit_accession>
+  <Hit_len>72109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.64</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>3.73334e-48</Hsp_evalue>
+      <Hsp_query-from>473</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>68889</Hsp_hit-from>
+      <Hsp_hit-to>69472</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>405</Hsp_identity>
+      <Hsp_positive>405</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>593</Hsp_align-len>
+      <Hsp_qseq>TCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCA--GGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTGATCGGGCTGACCAGTTCCATGTGGTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGAT-GTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGCGGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGG-AGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>TCTGCCATCCGCTGGGTGTTGGCGCAGACGATGCGCACGGGGCTGATCAACGCCCGCAACGGGTACT--CGCCGGTGTGGTTGTTGAGCAGGCAGATGTACAGGTCGGTGATGTCCAGCTCACCGGTCACCGGGCTGCGAAACTCCATGTGACCCGGCAAGCGCATGGTCACGAAGGTGTCGCGGCCACCGCGCAGCGCCCCGATGGTTTCGATGTGCGCCCCGCCCTCGTCCACCAGCGACGA-CAGCATCGGCGTGGTCTCCTCGTTGCTGAAGGGCACCCAG--CGGTTGCCGACCACGCCCAGCGCCTCGGGCTGGTGGTTGATGGGATTGTCGCGCAGCACCACGTGGCGGTCGGGCAC--CG-CCAGGGCGTACTGCTCGCCGCCGTCGGTGGTGTACTTGGCCACCAGCGGCTGCTTGCGGACGTTCCAGCCGCGCATGTGGGCGGCGTCGAGGGCCTCGTCCACGGTCATCAGGTGACCGACGGGGGTGCCCAGCTTGTGCCAGGCGTCGACGCGCCCGTT-GCGGTCCACGCGGCTGTCGGCGTAGCTGGCCTGGCCGTCGGTGATGTCGATTTCGTGCGCCAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||| ||||| |||||||||| ||| || ||||||||   |||   ||  || | |   |||||  ||||| |||||  |   | | |||||||||||| | |||  |||  ||||| | |||||||   |  ||||||||  | ||||    ||||||||||||||||  ||| || |||   ||    |||  ||| |||||   ||| |||  ||||||    |  | ||| ||| | |   || |||  ||||||   ||| ||   ||||  || |  |||||||| || || | |||   ||    |||||| || ||   ||| | |   |||     | |||| |   || |||   ||  ||  ||| ||||| |   || |   ||||||   || ||   |||||| |||| |||||| |||||||||||||||||||||  ||||||  | ||||||  ||| ||||| |    ||| ||||||||||| ||||||||    ||||| ||||   ||||||||||||||| |||||  |   ||||| ||| ||||||| || ||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|8</Hit_id>
+  <Hit_def>Baee complete sequence, 70270 bp, circularly permuted, Cluster B5</Hit_def>
+  <Hit_accession>8</Hit_accession>
+  <Hit_len>70270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.163</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.14305e-35</Hsp_evalue>
+      <Hsp_query-from>376</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>66962</Hsp_hit-from>
+      <Hsp_hit-to>67621</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>458</Hsp_identity>
+      <Hsp_positive>458</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>697</Hsp_align-len>
+      <Hsp_qseq>GTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTG-ATCGGGCTGACCAGTTCCATGTG-GTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCG---CCCTCGGAGAGGTTGGCCTGGAGGGG---GATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GTACTTGAACGTCAGCCCCAGCAGCCTCCGCACCTCAGCCAGCTTCGCCGCCGACGCGCCGACGTGACGCAGGGCGACCGAGCTGACGGCCTCCGCCTCGGCGATGCGCTGCGTGTTGGCGCAGACGATGCGGACCGGGGAGATGATGGCGCGGAGCGACCCCTGGCCGTCGTGGTGATTGATCACGGCCAGATAGACCTCGGTCGTGTCGCGGAACCCGTCGGAGCCGG-TGAAC---TCGACGTGAGTCGG-CATCAACATCGTCACGAACGTCCGTCGCCCGCCGTCGAGCGCGCCGATGGTCTGGATATGTGCGCCGGACTGGTCCGTGATGGCGTAGAGGAGGTCGGTGGTCTCCTCGTTCTGGATCGGCTGCCAG--CGGTCGCCGACGACGGCCAGCGCCTCCGGCATGAGCGTGACCGGGTTGGTCCGCAGGACCGT---CCACTGGCCGGGCGCGTTG---ATCTCGG--TCGTC-CCGCCGAGACCGTCGTCAACGAT---CTGGGCGTGCTCGACCTTGCGAACGTTCCAGTCGTTCATGTTCGCCGCTTCCAGCGCCTCCGCCGGGGCCATCTCATGGCCGACCTGCTGCCCGAGTTGATGCCATGCATCG---TT---------------GCGGCTATCGGCGAAGCTGTAGCGACCGGCGGTTCTGTCGATCTCATGTCCCAT</Hsp_hseq>
+      <Hsp_midline>||||||  ||||||| ||||| | || ||| |||||  ||| |    ||  || | | |||  ||| || |  | |||   |   |||||| ||   || || || ||||||||||| |||||||||| ||| ||||||  |||| | |||   ||    ||   |||||||||||| ||||  |  | ||| || |  ||||||  ||||||   ||||  | | | || ||| |   || | ||| ||||| ||||  ||| |||||||| || || || |||||||||||    |||  ||||| |||    |||||||||| ||| |||||| || | ||||| | ||| |||  ||||||||||| |||   ||||  || |  ||||| ||  | || | |||   | |     ||| |||||| || |   |||||||     ||| ||||||   || |   |||||||  |||||  |||||   || |||   | | |   ||||  | |   || ||||||||||| |||| |   |||||  || || || ||   |||  | |  | |||| | |||||||||  ||| ||||| |  ||||| || |||   ||               |||||| ||||||||||||      ||| | ||  |||||||||||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|1</Hit_id>
+  <Hit_def>Acadian Final Sequence, 69864 bp, circularly permuted, Cluster B4</Hit_def>
+  <Hit_accession>1</Hit_accession>
+  <Hit_len>69864</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.163</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.14305e-35</Hsp_evalue>
+      <Hsp_query-from>376</Hsp_query-from>
+      <Hsp_query-to>1059</Hsp_query-to>
+      <Hsp_hit-from>66456</Hsp_hit-from>
+      <Hsp_hit-to>67115</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>452</Hsp_identity>
+      <Hsp_positive>452</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>691</Hsp_align-len>
+      <Hsp_qseq>GTACTTCCACGTCAGGCCCAGGATCCGCCGGACCTCTTCCAACCGGACCTGCGCCTCCCCGGTGTGCCGGATCGAGACGCGGGACACGGCCGCCCGTTCCGCCATCCGCTGCGTGTTCGCGCAGACGACGCGAACCGGGCTGATGTTCGCGACCAGGCTGCCGCCGCCGTCGTGGTGGTTGAAGATCGACAGGTACAGGTCGGTCACGTCGCGCTTCCCGGTG-ATCGGGCTGACCAGTTCCATGTG-GTCGGGCATCTTCATGGTCACGAAGGTGCGGCGTCCGCCGTCGAGGCTTCCGCCGGTCTCGATCACCGCGCCGGACTCGTCGGTGATGTCGAACAGGAGCTTGGTCGTCCACTCGTTCTGGAACGGGGTCCAGAACGAT--CCGACCACCCCGAGAGGCTCTACCTTCCCGTTGATCGGGTTCGTGC---GGACCGTGACGAACTTGCCGGGGATGTCGACCATCTCGGTCTCGTCGTCGCCGCCCTCGGAGAGGTTGGCCTGGAGGGGGATCTTGCGAACGTCCCAGCCCCGCATGTGGGCGGCGTCGAGGAACTCGTCGGCCGTCATCGCGTGGCCGACCGCCTGGCCGAGCTTGTGCCACGCGTCGACCTTGCCGTTCGCGGAGACGCGGCTGTCGGCGAAGCTGCTCACTCCGTCCGTGGTGTCGATCTCATGCGCCAT</Hsp_qseq>
+      <Hsp_hseq>GTACTTGAACGTCAGGCCCAGCAGCCTCCGCACCTCGGCCAGCTTCGTCGCCGACGCGCCGACGTGACGCAGGGCGACCGAGCTGACGGCCTCCGCCTCGGCGATGCGCTGAGTGTTGGCGCAGACGATGCGGACCGGCGAGATGATCGCGCGGAGCGACCCCTGGCCGTCGTGATGGTTGATCACGGCCAGGTAGACCTCGGTCGTGTCGCGGAACCCGCCGGAGCCGG-TGAAC---TCGACGTGCGTCGG-CATCAGCATCGTGACAAACGTCCGTCGCCCGCCGTCGAGCGCGCCGATGGTCTGGATGTGTGCGCCGGACTGGTCCGTGATGGCGTAGAGGAGGTCGGTGGTCTCCTCGTTCTGAATCGGCTGCCAG--CGGTCGCCGACGACGGCCAGCGCCTCCGGCATGAGCGTGACCGGGTTGGTCCGCAGGACCGT---CCATTGGCCCGGCGCGTTGACCTCGACGGTCCCGCCGAGACCG---TCGGGCACGGTCTGCGCGTGCTCGATCTTGCGGACGTTCCAGCCGTTCATGTTCGCCGCTTCCAGCGCCTCCGCCGGGGTCATCTCGTGGCCGACCTGCTGCCCGAGCTGGTGCCAGGCATCG---TT---------------GCGGCTATCGGCGAAGCTGTAGCGACCGGCGGTGTTGTCGATCTCGTGTCCCAT</Hsp_hseq>
+      <Hsp_midline>||||||  ||||||||||||| | || ||| |||||  ||| |     |  || | | |||  ||| || |  | |||   |   |||||| ||   || || || ||||| ||||| |||||||||| ||| |||||   |||| |||||   ||    ||   ||||||||| |||||||  |  | |||||| |  ||||||  ||||||   ||||  | | | || ||| |   || | ||| ||||| ||||  ||| || || || || || || |||||||||||    |||  ||||| |||    |||||||||| ||| |||||| || | ||||| | ||| |||  ||||||||| | |||   ||||  || |  ||||| ||  | || | |||   | |     ||| |||||| || |   |||||||     | | ||| ||   || ||||    ||||| || ||   |||   ||||  | | |   |  | |   ||||||||| |||| ||||||   |||||  || || || ||   |||  | |  |||||| |||||||||||  ||| ||||||| |||||| || |||   ||               |||||| ||||||||||||      ||| | ||| |||||||||| ||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|100</Hit_id>
+  <Hit_def>ShiVal Complete Sequence, 68355 bp, Circularly permuted, Cluster B1</Hit_def>
+  <Hit_accession>100</Hit_accession>
+  <Hit_len>68355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9436</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>2.2105</Hsp_evalue>
+      <Hsp_query-from>843</Hsp_query-from>
+      <Hsp_query-to>862</Hsp_query-to>
+      <Hsp_hit-from>62770</Hsp_hit-from>
+      <Hsp_hit-to>62789</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CGGTCTCGTCGTCGCCGCCC</Hsp_qseq>
+      <Hsp_hseq>CGGTCTCGCCGTCGCCGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|53</Hit_id>
+  <Hit_def>Kloppinator complete sequence, 68480 bp, circularly permuted, Cluster B1</Hit_def>
+  <Hit_accession>53</Hit_accession>
+  <Hit_len>68480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9436</Hsp_bit-score>
+      <Hsp_score>34</Hsp_score>
+      <Hsp_evalue>2.2105</Hsp_evalue>
+      <Hsp_query-from>843</Hsp_query-from>
+      <Hsp_query-to>862</Hsp_query-to>
+      <Hsp_hit-from>62895</Hsp_hit-from>
+      <Hsp_hit-to>62914</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>CGGTCTCGTCGTCGCCGCCC</Hsp_qseq>
+      <Hsp_hseq>CGGTCTCGCCGTCGCCGCCC</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|112</Hit_id>
+  <Hit_def>Thor complete sequence, 53058 bp including 10 bp 3&apos; overhang (CGGATGGTAA), Cluster A1</Hit_def>
+  <Hit_accession>112</Hit_accession>
+  <Hit_len>53058</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.1402</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>7.7154</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>10571</Hsp_hit-from>
+      <Hsp_hit-to>10556</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>CTTGATCTCTCCGCCG</Hsp_qseq>
+      <Hsp_hseq>CTTGATCTCTCCGCCG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>129</Statistics_db-num>
+      <Statistics_db-len>8841557</Statistics_db-len>
+      <Statistics_hsp-len>26</Statistics_hsp-len>
+      <Statistics_eff-space>9129863699</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
