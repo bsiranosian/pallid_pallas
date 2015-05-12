@@ -14,8 +14,9 @@ can be run from the comand-line.
 @date 5/2/15. """
 
 #Imports
-#import numpy as np
+import numpy as np
 import sys
+import os
 
     #Main method: This is where the flow of control is. It first calls read_fasta on a fasta and saves the output to pairwise. It next calls either one or a series of analysis methods, with the goal of producing data in a form that's ammenible to being read in and processesed by a seperate data visualization script. 
 
@@ -41,24 +42,22 @@ class Pairwise:
         self.o_seq = o_seq
         self.t_ilist = Pairwise.find_starts(t_seq)
         self.o_ilist = Pairwise.find_starts(o_seq)
+        
+    def __str__(self):
+        return "Pairwise()"
     
         
     #Getter Methods (t/o name, seq, ilist):
     def get_t_name(self):
         return self.t_name
-    
     def get_o_name(self):
         return self.o_name
-    
     def get_t_seq(self):
         return self.t_seq
-    
     def get_o_seq(self):
         return self.o_seq
-    
     def get_t_ilist(self):
         return self.t_ilist
-    
     def get_o_ilist(self):
         return self.o_ilist
     
@@ -96,7 +95,6 @@ class Pairwise:
                     pairwise_list.append(new_pairwise)
             return pairwise_list
     
-    
     #Prints a list of pariwise objects, or a single one if given only one.
     @staticmethod
     def print_single_pairwise(one):
@@ -112,49 +110,58 @@ class Pairwise:
         for p in range(len(pairwise)):
             Pairwise.print_single_pairwise(pairwise[p])
             print
-    
-    #Analysis Functions:
-    
-    #This function takes in a list of pairwise objects, iterates through it based on the t_ilist and counts what happens at all those sites: 4/4 match, 3/4 match, 2/4 match, 1/4 match, 0/4 match. The function takes all the final counts in each category for each pairwise and make them into a list of 5 #s. Each of the lists is then appended to a master characterization list, which the function outputs.
-    def characterize_deviations_data(pairwise):
-        characterizations = []
-        for p in pairwise:
-            ilist = p.get_t_ilist()
-            t_seq = p.get_t_seq()
-            o_seq = p.get_o_seq()
-            for i in ilist:
-                characterization = []
-                same_count = 0.0
-                one_off = 0.0
-                two_off = 0.0
-                three_off = 0.0
-                four_off = 0.0
-                tem = t_seq[i:i+4]
-                oth = o_seq[i:i+4]
-                for j in range(len(tem)):
-                    diff_score = 0
-                    if tem[j] != oth[j]:
-                        diff_score += 1
-            if diff_score == 0:
+#END OF PAIRWISE CLASS
+            
+#Analysis Methods:
+            
+def find_same_counts(pairwise):
+    same_counts = []
+    for p in pairwise:
+        t_ilist = Pairwise.get_t_ilist(p)
+        o_ilist = Pairwise.get_o_ilist(p)
+        same_count = 0
+        for i in range(len(t_ilist)):
+            if t_ilist[i] in o_ilist:
                 same_count += 1
-            if diff_score == 1:
-                one_off += 1
-            if diff_score == 2:
-                two_off += 1
-            if diff_score == 3:
-                three_off += 1
-            if diff_score == 4:
-                four_off += 1
-        characterization = [same_count, one_off, two_off, three_off, four_off]
-        characterizations.append(characterization)
-        return characterizations
+        same_counts.append(same_count)
+    return same_counts
+
+def find_g_to_base(pairwise, base):
+    g_to_x = 0
+    for p in pairwise:
+        t_ilist = Pairwise.get_t_ilist(p)
+        o_seq = Pairwise.get_o_seq(p)
+        for i in t_ilist:
+            oth = o_seq[i:i+4]
+            transversion = base + "ATC"
+            if (oth == transversion):
+                g_to_x += 1
+    return g_to_x
+
+def find_degrees_off(pairwise, degree):
+    total_off = 0
+    for p in pairwise:
+        t_ilist = Pairwise.get_t_ilist(p)
+        o_seq = Pairwise.get_o_seq(p)
+        tem = "GATC"
+        for i in t_ilist:
+            oth = o_seq[i:i+4]
+            same_count = 0
+            for t in range(len(tem)):
+                if oth[t] == tem[t]:
+                    same_count += 1
+            if same_count == (4 - degree):
+                total_off += 1
+    return total_off
+      
         
-    
+#Main Method (flow of control starts here from command line call):
 def main():
     if len(sys.argv) != 2:
         sys.exit('USAGE: python pariwise.py input_fasta \n \
-            input_fasta is the location of a fasta file with the BLASTED pairwise alignment.')
+        input_fasta is the location of a fasta file with the BLASTED pairwise alignment.')
     else: 
+        #Generates list of pairwise objects from fasta file, assigns it to pairwise        
         file_id = sys.argv[1]
         input_fasta_name = '/Users/juliagross/Desktop/' + file_id
         input_fasta = open(input_fasta_name, "r+")
