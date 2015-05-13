@@ -72,9 +72,6 @@ def createHeatmap(phages, pals, scores):
     # filters out all non B clusters, where clustersList[1] represents all B clusters
     bCluster = clustersList[1]
     
-    # filters out all B1 clusters
-    # bSubclusters = filter(lambda x: int(x[1]) != 1, bCluster)
-    
     # Attaches 3 of each B-subcluster page to finalList
     finalList = []
     usedClusters = []
@@ -96,6 +93,11 @@ def createHeatmap(phages, pals, scores):
     
     # writes phages to csv file
     file = open("heatmap_visuals/example_heatmap_scores.csv", "w")
+    file.write(",")
+    for pal in x:
+        file.write(pal + ",")
+    file.write("\n")
+    
     for phage in finalList:
         file.write(phage[2] + ",")
         for score in phage[3]:
