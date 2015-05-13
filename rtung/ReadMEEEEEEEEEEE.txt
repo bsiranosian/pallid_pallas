@@ -12,5 +12,18 @@ overUnderTable.py: generates overUnderTable4.csv and overUnderTable6.csv
 overUnderTable4.csv: shows number of times a 4-pal is over or under expressed and the TUD of smeg
 overUnderTable6.csv: shows number of times a 6-pal is over or under expressed and the TUD of smeg
 
+Results:
 
+4pal occurence linked to msmeg 4 pal occurrence:
+   4palPhageTUDvsMSmegAdjustedTUD.png
+   4palPhageTUDvsMSmegAdjustedTUDStats.PNG
+   chartThingColored.xlsx
+
+6pal no occurrence per phage not linked to sequence length:
+   6numNonOccurringVSSequenceLength.png
+   6numNonOccurringVSSequenceLengthStats.PNG
+   
+General Characterizing:
+   overUnderTable4.csv
+   overUnderTable6.csv
 
