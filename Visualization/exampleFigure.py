@@ -94,10 +94,13 @@ def createHeatmap(phages, pals, scores):
 #==============================================================================    
 # Creates a single heatmap containing all clusters  
     
-    # writes phages to text file
-    file = open("phages.txt", "w")
+    # writes phages to csv file
+    file = open("heatmap_visuals/example_heatmap_scores.csv", "w")
     for phage in finalList:
-        file.write(phage[0] + "-" + phage[1] + " " + phage[2] + "\n")
+        file.write(phage[2] + ",")
+        for score in phage[3]:
+            file.write(str(score) + ",")
+        file.write("\n")
     file.close
     
     # convert scores into numpy array
