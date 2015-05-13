@@ -167,7 +167,41 @@ def main():
         input_fasta = open(input_fasta_name, "r+")
         input_fasta_copy = input_fasta.readlines()
         pairwise = Pairwise.read_fasta(input_fasta_copy)
-        Pairwise.print_pairwise_list(pairwise)
+        
+        #Runs Analyis functions
+        
+        """Same Count test code"""
+        #same_counts = find_same_counts(pairwise)
+        #print np.sum(same_counts)
+        
+        """G to X test code"""
+        #g_to_a = find_g_to_base(pairwise, "A")
+        #g_to_t = find_g_to_base(pairwise, "T")
+        #g_to_c = find_g_to_base(pairwise, "C")
+        #print "G to A: " + str(g_to_a)
+        #print "G to T: " + str(g_to_t)
+        #print "G to C: " + str(g_to_c)
+        
+        """Degree off test code:"""
+        #none_off = find_degrees_off(pairwise, 0)
+        #one_off = find_degrees_off(pairwise, 1)
+        #two_off = find_degrees_off(pairwise, 2)
+        #three_off = find_degrees_off(pairwise, 3)
+        #four_off = find_degrees_off(pairwise, 4)
+        #print "0 off: " + str(none_off)
+        #print "1 off: " + str(one_off)
+        #print "2 off: " + str(two_off)
+        #print "3 off: " + str(three_off)
+        #print "4 off: " + str(four_off)
+        
+        
+        
+        #Writes analysis results to output file
+        
+        
+        #Pairwise.print_pairwise_list(pairwise)
+        
+        #Closes file
         input_fasta.close()
         
 if __name__ == '__main__':
