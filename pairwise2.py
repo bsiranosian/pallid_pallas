@@ -175,7 +175,11 @@ def main():
                 
             pairwise_output = open("pairwise_output", "ab")
             for p in pairwise:
-                pairwise_output.write(str(Pairwise.get_t_name(p))) 
+                pairwise_output.write(str(Pairwise.find_same_counts(p, 0))) 
+                pairwise_output.write(str(Pairwise.find_same_counts(p, 1)))
+                pairwise_output.write(str(Pairwise.find_same_counts(p, 2)))
+                pairwise_output.write(str(Pairwise.find_same_counts(p, 3)))
+                pairwise_output.write(str(Pairwise.find_same_counts(p, 4)))
             pairwise_output.write('\n')
             
             input_fasta.close()
